@@ -12,7 +12,6 @@ Open **the `content` folder** as an existing vault. Begin at `index.md`. Edit th
 - `talents/`: character-creation choices, embedding canonical definitions.
 - `disadvantages/`: selectable limitations.
 - `special-orders/`: 28 individual orders.
-- `examples/`: noncombat examples.
 - `private/`: local GM/design notes, ignored by both Git and Quartz.
 
 Keep private material in `content/private/`. Other content notes are intended for publication. The published rulebook PDFs and conversation history are not included.
@@ -38,8 +37,6 @@ In repository **Settings → Pages → Build and deployment**, choose **GitHub A
 The configured URL is https://vanhornchadm.github.io/halo-flashpoint-rpg/ . Changing the repository or domain requires updating `baseUrl` in `quartz.config.ts`.
 
 ## Content decisions
-
-The latest rules take precedence: Traits are merged into Talents; Flood have Collective Will and Auto WIL; noncombat actions use ordinary RP without tokens or rest mechanics. On My Mark is represented by +1 Model rather than an order. Original movement and R1 values remain where no final conversion was agreed.
 
 The vault is a campaign supplement, not a full reproduction of the published combat rulebook. Some starred stats and character-creation allocation rules still require a table decision. Local review notes live in `content/private/Design Decisions.md`.
 

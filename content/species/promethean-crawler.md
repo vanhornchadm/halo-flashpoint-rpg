@@ -11,16 +11,16 @@ tags: ["species", "npc"]
 
 | STR | AGL | INT | AW | WIL | FEL | LCK |
 |---|---|---|---|---|---|---|
-| 0 | +2 | 0 | +1 | +2 | −1 | 0 |
+| 0 | +2 | 0 | +1 | +2 | -1 | 0 |
 
-**Starting Talents:** [[keywords/beast|Beast]], [[keywords/construct|Construct]]. [[keywords/evade|Evade]].
+**Starting Talents:** [[keywords/beast|Beast]], [[keywords/construct|Construct]], [[keywords/evade|Evade]]
 
-**Natural Weapons:** Close Strike — CC; AP 1.
+**Natural Weapons:**
+
+- **Bite:** CC, AP1, -
 
 **Equipment:**
 
-- **Chassis:** +1 AR.
+- **Chassis:** +1 AR
 
-**Special Order Classification:** Promethean.
-
-**Note:** Use the revised once-per-round [[keywords/evade|Evade]] rule. [[keywords/beast|Beast]] limits carrying and operating ordinary items.
+**Special Order Classification:** Promethean

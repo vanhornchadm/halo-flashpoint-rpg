@@ -9,7 +9,11 @@ for(const file of files){
  if(!text.startsWith('---\n')||!/^title:/m.test(text))errors.push(`${file}: missing frontmatter`)
  for(const m of text.matchAll(/!?\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g))if(!slugs.has(m[1]))errors.push(`${file}: unresolved link ${m[1]}`)
  if(/:::writing|codex-file-citation|\/Users\/|Scene Order token|Reserve tokens/.test(text))errors.push(`${file}: export residue or superseded rule`)
- if(file.includes('/species/flood-')&&!/\| Auto \|/.test(text))errors.push(`${file}: missing Auto WIL`)
+ if(file.includes('/species/flood-')) {
+  const row = text.split(/\r?\n/).findIndex(line => line.startsWith('| STR |'))
+  const wil = text.split(/\r?\n/)[row + 2]?.split('|')[5]?.trim()
+  if(!['—', 'Auto'].includes(wil) || !text.includes('keywords/collective-will')) errors.push(`${file}: missing automatic WIL rule`)
+ }
 }
 for(const [dir,count] of [['species',18],['special-orders',28],['talents',23],['disadvantages',2]]){
  const actual=files.filter(f=>f.startsWith(`content/${dir}/`)&&!f.endsWith('/index.md')).length

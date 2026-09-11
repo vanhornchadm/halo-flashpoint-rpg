@@ -13,14 +13,14 @@ tags: ["species", "npc"]
 
 | STR | AGL | INT | AW | WIL | FEL | LCK |
 |---|---|---|---|---|---|---|
-| +2 | −1 | 0 | 0 | 0 | 0 | 0 |
+| +2 | -1 | 0 | 0 | 0 | 0 | 0 |
 
-**Starting Talents:** [[keywords/bond-brothers|Bond Brothers]], [[keywords/guarded|Guarded]]. [[keywords/stoic|Stoic]], [[keywords/imposing|Imposing]].
+**Starting Talents:** [[keywords/bond-brothers|Bond Brothers]], [[keywords/guarded|Guarded]], [[keywords/stoic|Stoic]], [[keywords/imposing|Imposing]].
 
 **Natural Weapons:**
 
-- **Extended Strike:** R1; AP 1; [[keywords/smash|Smash]] (1), [[keywords/lunge|Lunge]].
-- **Close Strike:** CC; AP 2; [[keywords/smash|Smash]] (2).
+- **Extended Strike:** R1; AP 1; [[keywords/smash|Smash]] (1), [[keywords/lunge|Lunge]]
+- **Close Strike:** CC, AP 2; [[keywords/smash|Smash]] (2)
 
 **Equipment:**
 

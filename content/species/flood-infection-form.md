@@ -11,12 +11,14 @@ tags: ["species", "npc"]
 
 | STR | AGL | INT | AW | WIL | FEL | LCK |
 |---|---|---|---|---|---|---|
-| −1 | 0 | 0 | 0 | Auto | 0 | 0 |
+| -1 | 0 | 0 | 0 | — | 0 | 0 |
 
-**Starting Talents:** [[keywords/collective-will|Collective Will]]. [[keywords/beast|Beast]], [[keywords/horde|Horde]], [[keywords/infection|Infection]].
+**Starting Talents:** [[keywords/beast|Beast]], [[keywords/horde|Horde]], [[keywords/infection|Infection]], [[keywords/collective-will|Collective Will]]
 
-**Natural Weapons:** Close Strike — CC; no AP or additional weapon keywords.
+**Natural Weapons:**
 
-**Equipment:** None.
+- **Close Strike:** CC, AP-, -
 
-**Special Order Classification:** Flood, subject to each order’s physical requirements.
+**Equipment:** None
+
+**Special Order Classification:** Flood, subject to each order’s physical requirements

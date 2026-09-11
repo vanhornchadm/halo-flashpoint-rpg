@@ -5,7 +5,7 @@ tags: ["species", "playable"]
 
 *Alert, nimble, and skilled at finding an advantageous position.*
 
-**Availability:** Playable.
+**Availability:** Playable
 
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
@@ -15,9 +15,11 @@ tags: ["species", "playable"]
 |---|---|---|---|---|---|---|
 | 0 | +2 | 0 | +2 | 0 | 0 | 0 |
 
-**Starting Talents:** [[keywords/agile|Agile]].
+**Starting Talents:** [[keywords/agile|Agile]]
 
-**Natural Weapons:** Fists — CC; no AP or additional keywords.
+**Natural Weapons:**
+
+- **Fists:** CC, AP-, -
 
 **Equipment Options:**
 

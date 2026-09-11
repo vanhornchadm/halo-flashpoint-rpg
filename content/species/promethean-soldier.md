@@ -11,14 +11,16 @@ tags: ["species", "npc"]
 
 | STR | AGL | INT | AW | WIL | FEL | LCK |
 |---|---|---|---|---|---|---|
-| 0 | +1 | 0 | +1 | +2 | −1 | 0 |
+| 0 | +1 | 0 | +1 | +2 | -1 | 0 |
 
-**Starting Talents:** [[keywords/construct|Construct]], integrated [[keywords/teleport|Teleport]].
+**Starting Talents:** [[keywords/construct|Construct]], [[keywords/teleport|Teleport]].
 
-**Natural Weapons:** Fists — CC; no AP or additional keywords.
+**Natural Weapons:**
+
+- **Fists:** CC, AP-, -
 
 **Equipment:**
 
-- **Chassis:** +1 AR, [[keywords/energy-shield|Energy Shield]] (2).
+- **Chassis:** +1 AR, [[keywords/energy-shield|Energy Shield]] (2)
 
-**Special Order Classification:** Promethean.
+**Special Order Classification:** Promethean

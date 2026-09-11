@@ -11,14 +11,14 @@ tags: ["species", "npc"]
 
 | STR | AGL | INT | AW | WIL | FEL | LCK |
 |---|---|---|---|---|---|---|
-| −1 | +2 | 0 | 0 | 0 | 0 | 0 |
+| -1 | +2 | 0 | 0 | 0 | 0 | 0 |
 
-**Starting Talents:** [[keywords/flight|Flight]].
+**Starting Talents:** [[keywords/flight|Flight]]
 
-**Natural Weapons:** Fists — CC; no AP or additional keywords.
+**Natural Weapons:**
+
+- **Fists:** CC, AP-, -
 
 **Equipment:**
 
-- **Yanme’e Harness:** +1 SV.
-
-**Note:** Removing equipment does not remove natural [[keywords/flight|Flight]].
+- **Yanme’e Harness:** +1 SV

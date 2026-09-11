@@ -3,11 +3,9 @@ title: "Species"
 tags: ["species"]
 ---
 
-# Species Base Stats
-
 *Your species supplies a foundation. Your experience determines what you build on it.*
 
-Each profile separates baseline stats from **Starting Talents**, **Natural Weapons**, and **Equipment**.
+Each profile separates baseline stats from Starting Talents, Natural Weapons, and Equipment.
 
 **Combat stats:** SPD lists Advance/Sprint movement. RA, FI, and SV are target numbers; lower is better. HP is maximum health.
 
@@ -15,11 +13,7 @@ Each profile separates baseline stats from **Starting Talents**, **Natural Weapo
 
 **Equipment bonuses:** Apply these only while the equipment is functioning. A +1 improvement to RA, FI, or SV lowers its target number by one step. Equipment options are not automatically combined.
 
-**Notation:** “—” means unavailable or not applicable. “*” indicates a value supplied by a host, platform, or inheritance rule; establish it before use.
-
-Movement values and R1 weapon notation below retain the original profiles. Updated keyword distances use 4" increments.
-
-
+**Notation:** “—” means the model automatically passes or fails related checks as specified by the relevant species or ability rule. The dash alone does not determine which result applies. “*” indicates a value supplied by a host, platform, or inheritance rule; establish it before use.
 
 ## Profiles
 

@@ -96,7 +96,7 @@ Attributes do not grant abilities a character’s body or equipment cannot suppo
 
 On a profile:
 
-- **—** means the attribute is not applicable. It does not automatically grant success, failure, or immunity. Use the relevant species rule or resolve the situation from the fiction.
+- **—** means related checks automatically pass or fail where the relevant species or ability rule specifies the outcome. The dash alone does not choose the result or grant immunity. For Flood WIL checks, [[keywords/collective-will|Collective Will]] specifies automatic success.
 - **\*** means the value comes from another profile or a specific rule. Identify that value before rolling. If its source is undefined, the GM establishes it before the attribute is used.
 
 AIs require suitable access to interact with electronic systems. Attachment alone does not grant control of a host’s body; hosting and possession follow their own rules.

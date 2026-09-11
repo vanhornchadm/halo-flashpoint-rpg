@@ -13,6 +13,6 @@ tags: ["rules", "species"]
 
 **Constructs and Flood:** Conventional medical treatment does not restore their HP. Constructs use applicable [[keywords/repair|Repair]] rules; Flood use explicit Flood abilities or appropriate narrative procedures.
 
-**Undefined Values:** An asterisk must be resolved before play. A dash does not automatically grant immunity or success; apply the relevant species and situation rules.
+**Undefined Values:** An asterisk must be resolved before play. A dash uses an automatic pass or failure only where the relevant species or ability rule specifies which applies; it does not independently grant immunity.
 
-**[[keywords/collective-will|Collective Will]]:** All Flood automatically pass WIL checks. Their profiles show **Auto**. This does not prevent conditions that do not allow a WIL check.
+**[[keywords/collective-will|Collective Will]]:** All Flood automatically pass WIL checks. Their WIL cells show a dash; [[keywords/collective-will|Collective Will]] specifies that the result is a success. This does not prevent effects that do not allow a WIL check.

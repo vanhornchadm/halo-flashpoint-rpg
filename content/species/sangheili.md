@@ -15,14 +15,14 @@ tags: ["species", "playable"]
 |---|---|---|---|---|---|---|
 | +1 | +1 | +1 | +1 | +1 | 0 | 0 |
 
-**Starting Talents:** [[keywords/evade|Evade]].
+**Starting Talents:** [[keywords/evade|Evade]]
 
-**Natural Weapons:** Fists — CC; no AP; [[keywords/smash|Smash]] (1).
+**Natural Weapons:**
+
+- **Fists:** CC, AP-, [[keywords/smash|Smash]] (1)
 
 **Equipment:**
 
-- **Sangheili Harness:** +1 AR, +1 SV, [[keywords/energy-shield|Energy Shield]] (3).
+- **Sangheili Harness:** +1 AR, +1 SV, [[keywords/energy-shield|Energy Shield]] (3)
 
-**Special Order Classification:** Elite.
-
-**Note:** Use the revised once-per-round [[keywords/evade|Evade]] rule. [[keywords/active-camouflage|Active Camouflage]] requires suitable equipment.
+**Special Order Classification:** Elite

@@ -11,14 +11,12 @@ tags: ["species", "npc"]
 
 | STR | AGL | INT | AW | WIL | FEL | LCK |
 |---|---|---|---|---|---|---|
-| −1 | −1 | 0 | 0 | Auto | 0 | 0 |
+| -1 | -1 | 0 | 0 | — | 0 | 0 |
 
-**Starting Talents:** [[keywords/collective-will|Collective Will]]. [[keywords/beast|Beast]], [[keywords/boom|BOOM!]] (4).
+**Starting Talents:** [[keywords/beast|Beast]], [[keywords/boom|BOOM!]] (4), [[keywords/collective-will|Collective Will]]
 
-**Natural Weapons:** None; [[keywords/boom|BOOM!]] governs its explosion.
+**Equipment:** None
 
-**Equipment:** None.
+**Special Order Classification:** Flood
 
-**Special Order Classification:** Flood, subject to each order’s physical requirements.
-
-**Note:** The profile supplies only one movement value; no separate Sprint distance is defined.
+**Note:** This model cannot Sprint.

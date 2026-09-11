@@ -11,17 +11,17 @@ tags: ["species", "npc"]
 
 | STR | AGL | INT | AW | WIL | FEL | LCK |
 |---|---|---|---|---|---|---|
-| +1 | +1 | 0 | +1 | +2 | −1 | 0 |
+| +1 | +1 | 0 | +1 | +2 | -1 | 0 |
 
-**Starting Talents:** [[keywords/construct|Construct]], integrated [[keywords/teleport|Teleport]].
+**Starting Talents:** [[keywords/construct|Construct]], [[keywords/teleport|Teleport]]
 
 **Integrated Weapons:**
 
-- **Extended Strike:** R1; AP 2; ESD (1), [[keywords/lunge|Lunge]].
-- **Close Strike:** CC; AP 2; ESD (2), [[keywords/lethal|Lethal]] (1).
+- **Extended Strike:** R1; AP 2; ESD (1), [[keywords/lunge|Lunge]]
+- **Close Strike:** CC, AP 2; ESD (2), [[keywords/lethal|Lethal]] (1)
 
 **Equipment:**
 
-- **Chassis:** +2 AR, [[keywords/energy-shield|Energy Shield]] (3).
+- **Chassis:** +2 AR, [[keywords/energy-shield|Energy Shield]] (3)
 
-**Special Order Classification:** Promethean.
+**Special Order Classification:** Promethean

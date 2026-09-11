@@ -11,17 +11,15 @@ tags: ["species", "npc"]
 
 | STR | AGL | INT | AW | WIL | FEL | LCK |
 |---|---|---|---|---|---|---|
-| +2 | −1 | 0 | 0 | Auto | 0 | 0 |
+| +2 | -1 | 0 | 0 | — | 0 | 0 |
 
-**Starting Talents:** [[keywords/collective-will|Collective Will]]. [[keywords/beast|Beast]]. [[keywords/imposing|Imposing]].
+**Starting Talents:** [[keywords/beast|Beast]], innate Armor 1, [[keywords/imposing|Imposing]], [[keywords/collective-will|Collective Will]]
 
 **Natural Weapons:**
 
-- **Extended Strike:** R1; AP 1; [[keywords/smash|Smash]] (1), [[keywords/lunge|Lunge]].
-- **Close Strike:** CC; AP 2; [[keywords/smash|Smash]] (2).
+- **Extended Strike:** R1; AP 1; [[keywords/smash|Smash]] (1), [[keywords/lunge|Lunge]]
+- **Close Strike:** CC, AP 2; [[keywords/smash|Smash]] (2)
 
-**Innate Protection:** Armor 1.
+**Equipment:** None.
 
-**Equipment:** None required for innate protection.
-
-**Special Order Classification:** Flood.
+**Special Order Classification:** Flood
