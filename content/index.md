@@ -19,7 +19,6 @@ A table-ready reference for the campaign’s species, Skills, Talents, Special O
 - [[special-orders/index|Special Orders]] — shared and species-specific abilities.
 - [[keywords/index|Keywords]] — the canonical rules definitions.
 - [[rules/treatment|Medical Treatment and Repair]] — supply-based recovery.
-- [[private/examples/noncombat|Noncombat Examples]] — how to use the light rules at the table.
 
 Use search to find a rule by name. Links and backlinks connect profiles, abilities, and their underlying rules.
 
