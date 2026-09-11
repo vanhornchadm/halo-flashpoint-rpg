@@ -1,0 +1,20 @@
+@use "./base.scss";
+
+// Keep long rule text and species tables readable on desktop and mobile.
+article { line-height: 1.7; }
+article table { font-variant-numeric: tabular-nums; }
+article th { background: var(--lightgray); }
+article td, article th { padding: 0.55rem 0.75rem; }
+article h2 { margin-top: 2rem; }
+article h3 { margin-top: 1.5rem; }
+
+.table-container > table {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0;
+  th, td { min-width: 0; padding: 0.4rem 0.45rem; }
+}
+@media (max-width: 600px) {
+  article table { font-size: 0.85rem; }
+  .table-container > table th, .table-container > table td { padding: 0.35rem 0.25rem; }
+}
