@@ -1,0 +1,51 @@
+<div class="fp-blank">
+  <div class="fp-content">
+    <div class="fp-upper">
+      <div class="fp-left">
+        <div class="fp-portrait">{{#if card.portrait}}<img src="{{index assets card.portrait}}" alt="Character portrait">{{else}}<div class="fp-portrait-label">CHARACTER / EMBLEM</div>{{/if}}</div>
+        <div class="fp-identity">
+          <div class="fp-identity-row"><b>Species</b><div class="fp-identity-value">{{card.species}}</div></div>
+          <div class="fp-identity-row"><b>Background</b><div class="fp-identity-value">{{card.background}}</div></div>
+          <div class="fp-identity-row"><b>Faction</b><div class="fp-identity-value">{{card.faction}}</div></div>
+        </div>
+      </div>
+      <div class="fp-right">
+        <div class="fp-name-box"><div class="fp-name-label">CHARACTER NAME</div><div class="fp-name-value">{{card.[character-name]}}</div></div>
+        <div class="fp-traits"><div class="fp-traits-label">Talents / Abilities</div><div class="fp-write-line">{{card.traits}}</div><div class="fp-write-line">{{card.[traits-continued]}}</div></div>
+        <div class="fp-combat-area">
+          <div class="fp-combat-left">
+            <div class="fp-combat-stats">
+              <div class="fp-stat"><div class="fp-cap">RA</div><div class="fp-value">{{card.ra}}</div></div>
+              <div class="fp-stat"><div class="fp-cap">FI</div><div class="fp-value">{{card.fi}}</div></div>
+              <div class="fp-stat"><div class="fp-cap">SV</div><div class="fp-value">{{card.sv}}</div></div>
+            </div>
+            <div class="fp-shapes">
+              <div class="fp-shape fp-move"><svg viewBox="0 0 240 142" preserveAspectRatio="none" aria-hidden="true"><path d="M3 2 H199 L237 71 L199 140 H3 L40 71 Z" fill="white" stroke="var(--teal)" stroke-width="3"/><path d="M3 2 H199 L222 43 H25 L40 71 Z" fill="var(--teal)"/></svg><div class="fp-shape-label">SPD</div><div class="fp-shape-value">{{card.move}}</div></div>
+              <div class="fp-shape fp-armor"><svg viewBox="0 0 182 142" preserveAspectRatio="none" aria-hidden="true"><path d="M2 2 L91 18 L180 2 V110 L91 140 L2 110 Z" fill="white" stroke="var(--teal)" stroke-width="3"/><path d="M2 2 L91 18 L180 2 V50 H2 Z" fill="var(--teal)"/></svg><div class="fp-shape-label">AR</div><div class="fp-shape-value">{{card.defense}}</div></div>
+            </div>
+          </div>
+          <div class="fp-hp"><svg viewBox="0 0 330 292" aria-hidden="true"><path d="M80 2 H250 L328 75 V217 L250 290 H80 L2 217 V75 Z" fill="white" stroke="var(--line)" stroke-width="3"/><path d="M81 5 H249 L302 55 H28 Z" fill="var(--teal)"/></svg><div class="fp-hp-label">HP</div><div class="fp-hp-max"><div class="fp-hp-max-label">MAX</div><div class="fp-hp-number">{{card.hp}}</div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="fp-rp"><div class="fp-section-title">RP ATTRIBUTES</div><div class="fp-rp-grid">
+      <div class="fp-stat"><div class="fp-cap">STR</div><div class="fp-value">{{card.str}}</div></div>
+      <div class="fp-stat"><div class="fp-cap">AGL</div><div class="fp-value">{{card.agl}}</div></div>
+      <div class="fp-stat"><div class="fp-cap">INT</div><div class="fp-value">{{card.int}}</div></div>
+      <div class="fp-stat"><div class="fp-cap">AW</div><div class="fp-value">{{card.aw}}</div></div>
+      <div class="fp-stat"><div class="fp-cap">WIL</div><div class="fp-value">{{card.wil}}</div></div>
+      <div class="fp-stat"><div class="fp-cap">FEL</div><div class="fp-value">{{card.fel}}</div></div>
+      <div class="fp-stat"><div class="fp-cap">LCK</div><div class="fp-value">{{card.lck}}</div></div>
+    </div></div>
+    <div class="fp-weapons">
+      <div class="fp-weapon-row fp-weapon-head"><div>Weapon Type</div><div>Weapon</div><div>Range</div><div>AP</div><div>Keywords</div></div>
+      <div class="fp-weapon-row"><div>{{card.[weapon-1-type]}}</div><div>{{card.[weapon-1-name]}}</div><div>{{card.[weapon-1-range]}}</div><div>{{card.[weapon-1-ap]}}</div><div>{{card.[weapon-1-keywords]}}</div></div>
+      <div class="fp-weapon-row"><div>{{card.[weapon-2-type]}}</div><div>{{card.[weapon-2-name]}}</div><div>{{card.[weapon-2-range]}}</div><div>{{card.[weapon-2-ap]}}</div><div>{{card.[weapon-2-keywords]}}</div></div>
+    </div>
+  </div>
+  <div class="fp-rail fp-rail-left"><span>Close combat weapon slot</span></div>
+  <div class="fp-rail fp-rail-right"><span>Pick up slot</span></div>
+  <div class="fp-token-strip fp-top-tokens"><i></i><i></i><i></i><i></i></div>
+  <div class="fp-token-strip fp-bottom-tokens"><i></i><i></i><i></i><i></i></div>
+  <div class="fp-footer">UNOFFICIAL RPG CHARACTER CARD</div>
+</div>

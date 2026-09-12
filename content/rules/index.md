@@ -11,4 +11,5 @@ The campaign rules below adapt Flashpoint for roleplaying. They are a supplement
 - [[rules/talents|Talents and Disadvantages]]
 - [[rules/special-orders|Special Orders and Command Dice]]
 - [[rules/treatment|Medical Treatment and Repair]]
+- [[rules/death-saves|Spartan Down — Death Saves]]
 - [[rules/profile-notes|Profile Clarifications]]

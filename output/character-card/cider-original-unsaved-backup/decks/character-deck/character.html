@@ -1,0 +1,79 @@
+<div class="card">
+
+    <!-- ===== edges ===== -->
+    <div class="banner"><span class="title">{{card.name}}</span></div>
+    <div class="notches"><i></i><i></i><i></i><i></i></div>
+    <div class="tabs"><i></i><i></i><i></i><i></i></div>
+    <div class="slot slot-left"><span>{{#if card.left-slot}}{{card.left-slot}}{{else}}Close combat weapon slot{{/if}}</span></div>
+    <div class="slot slot-right"><span>{{#if card.right-slot}}{{card.right-slot}}{{else}}Pick up slot{{/if}}</span></div>
+
+    <!-- ===== art + faction mark ===== -->
+    <div class="art"></div>
+    {{#if card.faction-icon}}<div class="faction"></div>{{/if}}
+
+    <!-- ===== profile ===== -->
+    <div class="profile">
+        <div class="traits">{{card.traits}}</div>
+
+        <div class="stat-table">
+            <div class="stat"><div class="k">RA</div><div class="v">{{card.ra}}</div></div>
+            <div class="stat"><div class="k">FI</div><div class="v">{{card.fi}}</div></div>
+            <div class="stat"><div class="k">SV</div><div class="v">{{card.sv}}</div></div>
+        </div>
+
+        <div class="shapes">
+            <div class="move"><span>{{card.move}}</span></div>
+            <div class="defense"><span>{{card.defense}}</span></div>
+        </div>
+
+        <div class="hp">
+            <div class="hp-plate">
+                <div class="hp-label">HP</div>
+                <div class="hp-value">{{card.hp}}</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== weapons ===== -->
+    <div class="weapons">
+        <div class="wrow whead">
+            <span>Weapon Type</span><span>Weapon</span><span>Range</span><span>AP</span><span>Keywords</span>
+        </div>
+        {{#if card.[weapon-1-name]}}
+        <div class="wrow">
+            <span>{{card.[weapon-1-type]}}</span>
+            <span>{{card.[weapon-1-name]}}</span>
+            <span>{{#if card.[weapon-1-range]}}{{card.[weapon-1-range]}}{{else}}-{{/if}}</span>
+            <span>{{#if card.[weapon-1-ap]}}{{card.[weapon-1-ap]}}{{else}}-{{/if}}</span>
+            <span>{{#if card.[weapon-1-keywords]}}{{card.[weapon-1-keywords]}}{{else}}-{{/if}}</span>
+        </div>
+        {{/if}}
+        {{#if card.[weapon-2-name]}}
+        <div class="wrow">
+            <span>{{card.[weapon-2-type]}}</span>
+            <span>{{card.[weapon-2-name]}}</span>
+            <span>{{#if card.[weapon-2-range]}}{{card.[weapon-2-range]}}{{else}}-{{/if}}</span>
+            <span>{{#if card.[weapon-2-ap]}}{{card.[weapon-2-ap]}}{{else}}-{{/if}}</span>
+            <span>{{#if card.[weapon-2-keywords]}}{{card.[weapon-2-keywords]}}{{else}}-{{/if}}</span>
+        </div>
+        {{/if}}
+        {{#if card.[weapon-3-name]}}
+        <div class="wrow">
+            <span>{{card.[weapon-3-type]}}</span>
+            <span>{{card.[weapon-3-name]}}</span>
+            <span>{{#if card.[weapon-3-range]}}{{card.[weapon-3-range]}}{{else}}-{{/if}}</span>
+            <span>{{#if card.[weapon-3-ap]}}{{card.[weapon-3-ap]}}{{else}}-{{/if}}</span>
+            <span>{{#if card.[weapon-3-keywords]}}{{card.[weapon-3-keywords]}}{{else}}-{{/if}}</span>
+        </div>
+        {{/if}}
+        {{#if card.[weapon-4-name]}}
+        <div class="wrow">
+            <span>{{card.[weapon-4-type]}}</span>
+            <span>{{card.[weapon-4-name]}}</span>
+            <span>{{#if card.[weapon-4-range]}}{{card.[weapon-4-range]}}{{else}}-{{/if}}</span>
+            <span>{{#if card.[weapon-4-ap]}}{{card.[weapon-4-ap]}}{{else}}-{{/if}}</span>
+            <span>{{#if card.[weapon-4-keywords]}}{{card.[weapon-4-keywords]}}{{else}}-{{/if}}</span>
+        </div>
+        {{/if}}
+    </div>
+</div>

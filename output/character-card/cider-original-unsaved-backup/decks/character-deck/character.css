@@ -1,0 +1,324 @@
+/* =========================================================
+   Unit Front — landscape 1500 x 1050 (5" x 3.5" @ 300 dpi)
+
+   Geometry below is measured off the retail card and the
+   rulebook's "New Card Layout" diagram, then scaled to
+   1500 x 1050. Edit the variables, not the numbers inline.
+   ========================================================= */
+
+.card {
+    /* --- faction palette --- */
+    --accent:      {{#if card.accent}}{{card.accent}}{{else}}#41646b{{/if}};
+    --accent-mid:  {{#if card.accent-mid}}{{card.accent-mid}}{{else}}#6a888d{{/if}};
+    --accent-pale: {{#if card.accent-pale}}{{card.accent-pale}}{{else}}#bfcdcf{{/if}};
+    --accent-wash: {{#if card.accent-wash}}{{card.accent-wash}}{{else}}#dae5e5{{/if}};
+    --paper:       #ffffff;
+    --ink:         #1c1c1c;
+
+    /* --- geometry --- */
+    --rail:        78px;   /* side slot rail width */
+    --row-h:       102px;  /* weapon row height */
+    --art-h:       650px;  /* portrait box height */
+    --profile:     1;      /* profile block scale (auto-fit sets this) */
+
+    width: 1500px;
+    height: 1050px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 35px;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Open Sans', 'Noto Sans', 'Segoe UI', Arial, sans-serif;
+    line-height: 1.15;
+}
+
+/* ---------- title banner ----------
+   Left edge runs straight down then kicks 52px right over the
+   bottom 40% — matches the printed card. */
+.card .banner {
+    position: absolute;
+    top: 0;
+    left: 505px;
+    right: 0;
+    height: 156px;
+    background: var(--accent);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 52px 100%, 0 60%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+}
+/* margin-right holds the title's optical centre at x≈912 regardless of length */
+.card .banner .title {
+    margin-right: 180px;
+    color: #fff;
+    font-size: 92px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    white-space: nowrap;
+}
+{{#if (gt card.name.length 16)}}
+.card .banner .title { font-size: 78px; }
+{{/if}}
+{{#if (gt card.name.length 22)}}
+.card .banner .title { font-size: 62px; }
+{{/if}}
+
+/* ---------- shield-token notches / item tabs ---------- */
+.card .notches {
+    position: absolute;
+    top: 0;
+    left: 781px;
+    width: 645px;
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+.card .notches i {
+    width: 120px;
+    background: var(--accent-pale);
+    clip-path: polygon(0 0, 100% 0, 84% 100%, 16% 100%);
+}
+.card .tabs {
+    position: absolute;
+    bottom: 0;
+    left: 81px;
+    width: 808px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.card .tabs i {
+    width: 175px;
+    background: var(--accent-pale);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+/* ---------- side slot rails ---------- */
+.card .slot {
+    position: absolute;
+    top: 240px;
+    bottom: 59px;
+    width: var(--rail);
+    background: var(--accent-pale);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .slot span {
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.card .slot-left  { left: 0;  border-top-right-radius: 14px; border-bottom-right-radius: 14px; }
+.card .slot-right { right: 0; border-top-left-radius: 14px;  border-bottom-left-radius: 14px; }
+
+/* ---------- portrait + faction mark ---------- */
+.card .art {
+    position: absolute;
+    left: var(--rail);
+    top: 40px;
+    width: 500px;
+    height: var(--art-h);
+    background-image: url({{index assets card.portrait}});
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+}
+.card .faction {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+    background-image: url({{index assets card.faction-icon}});
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* ---------- profile block ----------
+   Scaled as a unit so extra weapon rows can claim space. */
+.card .profile {
+    position: absolute;
+    inset: 0;
+    transform: scale(var(--profile));
+    transform-origin: 985px 156px;
+}
+
+/* trait line — centred on the stat table, free to overhang it */
+.card .traits {
+    position: absolute;
+    left: 596px;
+    width: 382px;
+    top: 176px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+/* RA / FI / SV */
+.card .stat-table {
+    position: absolute;
+    left: 596px;
+    top: 311px;
+    display: flex;
+    gap: 7px;
+}
+.card .stat { width: 123px; text-align: center; }
+.card .stat .k {
+    height: 84px;
+    line-height: 84px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 54px;
+    font-weight: 800;
+}
+.card .stat .v {
+    height: 84px;
+    line-height: 84px;
+    background: var(--accent-pale);
+    font-size: 46px;
+    font-weight: 600;
+}
+
+/* speed chevron + armour plate, justified across the stat table */
+.card .shapes {
+    position: absolute;
+    left: 596px;
+    top: 515px;
+    width: 382px;
+    height: 139px;
+    padding-left: 29px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* .move is an unpainted box: ::after is the body, ::before the leading
+   stroke. Painting the body on .move itself would clip ::before away. */
+.card .move {
+    position: relative;
+    width: 139px;
+    height: 139px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 22px;
+    box-sizing: border-box;
+}
+.card .move::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--accent);
+    clip-path: polygon(0 0, 82% 0, 100% 50%, 82% 100%, 0 100%, 21% 50%);
+}
+.card .move::before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 0;
+    width: 48px;
+    height: 139px;
+    background: var(--accent);
+    clip-path: polygon(0 0, 39% 0, 100% 50%, 39% 100%, 0 100%, 56% 50%);
+}
+.card .move span { position: relative; z-index: 1; }
+.card .defense {
+    width: 136px;
+    height: 133px;
+    background: var(--accent);
+    clip-path: polygon(0 0, 50% 19%, 100% 0, 100% 79%, 50% 100%, 0 79%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+}
+.card .move span,
+.card .defense span {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+/* hit points — the value band is clipped by the octagon on purpose */
+.card .hp {
+    position: absolute;
+    left: 1027px;
+    top: 314px;
+    width: 347px;
+    height: 347px;
+    background: var(--accent-pale);
+    clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 27%);
+}
+.card .hp-plate {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 88px;
+    width: 172px;
+}
+.card .hp-label {
+    height: 169px;
+    box-sizing: border-box;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    color: #fff;
+    font-size: 84px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .hp-value {
+    height: 91px;
+    background: var(--accent-mid);
+    font-size: 46px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---------- auto-fit: profile yields as weapon rows are added ---------- */
+{{#if card.[weapon-3-name]}}
+.card { --row-h: 92px; --profile: 0.95; --art-h: 604px; }
+{{/if}}
+{{#if card.[weapon-4-name]}}
+.card { --row-h: 84px; --profile: 0.84; --art-h: 544px; }
+{{/if}}
+
+/* ---------- weapons ---------- */
+.card .weapons {
+    position: absolute;
+    left: var(--rail);
+    width: 1293px;
+    bottom: 48px;
+}
+.card .wrow {
+    display: grid;
+    grid-template-columns: 2.715fr 2.877fr 0.990fr 0.835fr 2.583fr;
+    align-items: center;
+    min-height: var(--row-h);
+    font-size: 32px;
+    text-align: center;
+}
+.card .wrow span { padding: 10px 14px; }
+.card .whead {
+    background: var(--accent);
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    min-height: 70px;
+    clip-path: polygon(0 0, calc(100% - 34px) 0, 100% 100%, 0 100%);
+}
+/* the header is row 1, so the first weapon row is "even" */
+.card .wrow:not(.whead):nth-of-type(even) { background: var(--paper); }
+.card .wrow:not(.whead):nth-of-type(odd)  { background: var(--accent-wash); }

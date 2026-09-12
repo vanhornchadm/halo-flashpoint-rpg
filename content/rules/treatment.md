@@ -47,6 +47,8 @@ The same once-per-target-per-round limit applies.
 
 A stabilized character remains at zero HP and cannot act. Stabilization prevents deterioration caused solely by the existing injury.
 
+For eligible casualties, stabilization stops [[rules/death-saves|death saves]] and clears all failed death saves. See **[[rules/death-saves|Spartan Down]]** for becoming Downed, death save timing, and the effects of further damage.
+
 It does not stop new damage, remove infection, extinguish fire, or protect against environmental hazards. New damage can put the casualty in danger again.
 
 Ordinary medical treatment cannot return a zero-HP character to combat during the current encounter.

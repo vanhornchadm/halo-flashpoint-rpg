@@ -1,0 +1,92 @@
+/* BLANK PLAYER CARD — 1500 x 1040 px.
+   Grid rows keep portrait/identity, abilities/combat, RP and weapons apart.
+   Every selector is scoped to this template; the filled template cannot override it.
+   Geometry: content x90–1410; upper y60–580; RP y604–754; weapons y778–958.
+   Teal labels sit above white writing surfaces. Edit values in Cards. */
+.fp-blank {
+  --teal: {{#if card.accent}}{{card.accent}}{{else}}#18565a{{/if}};
+  --line: #677579;
+  position: relative;
+  width: 1500px;
+  height: 1040px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 2px solid var(--teal);
+  border-radius: 36px;
+  background: #fff;
+  color: #172a2d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.fp-blank *, .fp-blank *::before, .fp-blank *::after { box-sizing: border-box; }
+.fp-blank .fp-content {
+  position: absolute;
+  left: 88px; right: 88px; top: 58px;
+  display: grid;
+  grid-template-rows: 520px 150px 180px;
+  gap: 24px;
+}
+.fp-blank .fp-upper { display: grid; grid-template-columns: 440px minmax(0, 1fr); gap: 30px; min-height: 0; }
+.fp-blank .fp-left { display: grid; grid-template-rows: 336px 166px; gap: 18px; min-height: 0; }
+.fp-blank .fp-portrait { position: relative; border: 2px solid var(--line); border-radius: 12px; overflow: hidden; }
+.fp-blank .fp-portrait-label { position: absolute; left: 20px; top: 14px; color: var(--teal); font-size: 20px; font-weight: 700; }
+.fp-blank .fp-portrait img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.fp-blank .fp-identity { display: grid; grid-template-rows: repeat(3, 1fr); gap: 7px; }
+.fp-blank .fp-identity-row { display: grid; grid-template-columns: 156px minmax(0, 1fr); gap: 12px; align-items: end; min-height: 0; }
+.fp-blank .fp-identity-row b { font-size: 25px; line-height: 36px; color: var(--teal); }
+.fp-blank .fp-identity-value { min-height: 40px; border-bottom: 2px solid var(--line); line-height: 36px; overflow: hidden; }
+.fp-blank .fp-right { display: grid; grid-template-rows: 90px 102px 292px; gap: 18px; min-width: 0; }
+.fp-blank .fp-name-box { border: 3px solid var(--teal); border-radius: 10px; overflow: hidden; display: grid; grid-template-rows: 32px minmax(0, 1fr); }
+.fp-blank .fp-name-label { padding: 3px 18px; background: var(--teal); color: white; font-size: 23px; font-weight: 800; letter-spacing: .5px; }
+.fp-blank .fp-name-value { padding: 5px 16px; font-size: 34px; line-height: 42px; overflow: hidden; }
+.fp-blank .fp-traits { display: grid; grid-template-rows: 28px 34px 34px; gap: 3px; }
+.fp-blank .fp-traits-label { color: var(--teal); font-size: 25px; font-weight: 700; }
+.fp-blank .fp-write-line { border-bottom: 2px solid var(--line); font-size: 24px; line-height: 30px; overflow: hidden; }
+.fp-blank .fp-combat-area { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 30px; min-height: 0; }
+.fp-blank .fp-combat-left { display: grid; grid-template-rows: 130px 142px; gap: 20px; min-width: 0; }
+.fp-blank .fp-combat-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.fp-blank .fp-stat { display: grid; grid-template-rows: 54px minmax(0, 1fr); border: 2px solid var(--line); min-width: 0; min-height: 0; }
+.fp-blank .fp-stat + .fp-stat { border-left: 0; }
+.fp-blank .fp-cap { display: flex; align-items: center; justify-content: center; background: var(--teal); color: #fff; font-size: 38px; font-weight: 800; }
+.fp-blank .fp-value { display: flex; align-items: center; justify-content: center; background: #fff; font-size: 40px; line-height: 1.1; overflow: hidden; }
+.fp-blank .fp-shapes { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 24px; }
+.fp-blank .fp-shape { position: relative; min-width: 0; }
+.fp-blank .fp-shape svg { display: block; position: absolute; inset: 0; width: 100%; height: 100%; }
+.fp-blank .fp-shape-label { position: absolute; top: 6px; left: 24px; right: 20px; height: 32px; display: grid; place-items: center; color: #fff; font-size: 26px; font-weight: 800; }
+.fp-blank .fp-shape-value { position: absolute; top: 48px; bottom: 24px; left: 44px; right: 34px; display: grid; place-items: center; font-size: 35px; white-space: nowrap; }
+.fp-blank .fp-armor .fp-shape-label { top: 13px; left: 8px; right: 8px; }
+.fp-blank .fp-armor .fp-shape-value { left: 12px; right: 12px; top: 55px; bottom: 25px; }
+.fp-blank .fp-hp { position: relative; min-height: 0; }
+.fp-blank .fp-hp svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.fp-blank .fp-hp-label { position: absolute; top: 7px; left: 65px; right: 65px; height: 48px; display: grid; place-items: center; font-size: 40px; font-weight: 800; color: white; }
+.fp-blank .fp-hp-max { position: absolute; left: 85px; right: 85px; bottom: 5px; height: 81px; border: 2px solid var(--line); display: grid; grid-template-rows: 27px minmax(0, 1fr); }
+.fp-blank .fp-hp-max-label { background: var(--teal); color: #fff; text-align: center; font-size: 22px; font-weight: 800; }
+.fp-blank .fp-hp-number { background: #fff; display: grid; place-items: center; font-size: 34px; }
+.fp-blank .fp-rp { display: grid; grid-template-rows: 40px minmax(0, 1fr); }
+.fp-blank .fp-section-title { display: grid; place-items: center; background: var(--teal); color: white; font-size: 27px; font-weight: 800; letter-spacing: 1px; border-radius: 10px 10px 0 0; }
+.fp-blank .fp-rp-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
+.fp-blank .fp-rp .fp-stat { grid-template-rows: 43px minmax(0, 1fr); }
+.fp-blank .fp-rp .fp-cap { font-size: 31px; }
+.fp-blank .fp-weapons { display: grid; grid-template-rows: 44px repeat(2, minmax(0, 1fr)); border: 2px solid var(--line); border-radius: 10px; overflow: hidden; }
+.fp-blank .fp-weapon-row { display: grid; grid-template-columns: 1.2fr 1.35fr .6fr .45fr 1.6fr; min-height: 0; }
+.fp-blank .fp-weapon-row > div { display: flex; align-items: center; justify-content: center; text-align: center; padding: 5px 12px; min-width: 0; font-size: 25px; border-right: 1px solid var(--line); overflow-wrap: anywhere; overflow: hidden; }
+.fp-blank .fp-weapon-row > div:last-child { border-right: 0; }
+.fp-blank .fp-weapon-row + .fp-weapon-row { border-top: 1px solid var(--line); }
+.fp-blank .fp-weapon-head { background: var(--teal); color: white; font-weight: 800; }
+.fp-blank .fp-weapon-head > div { font-size: 27px; }
+.fp-blank .fp-rail { position: absolute; top: 200px; bottom: 70px; width: 64px; border: 2px solid var(--line); border-radius: 10px; background: #fff; display: grid; place-items: center; }
+.fp-blank .fp-rail-left { left: -2px; }
+.fp-blank .fp-rail-right { right: -2px; }
+.fp-blank .fp-rail span { writing-mode: vertical-rl; white-space: nowrap; color: var(--teal); font-size: 24px; }
+.fp-blank .fp-rail-right span { transform: rotate(180deg); }
+/* Shield slots: lower halves of hexagons clipped by the card top edge. */
+.fp-blank .fp-token-strip { position: absolute; display: flex; }
+.fp-blank .fp-top-tokens { left: 812px; right: 34px; top: 0; justify-content: space-between; }
+.fp-blank .fp-top-tokens i { display: block; flex: 0 0 138px; width: 138px; height: 38px; }
+.fp-blank .fp-top-tokens svg { display: block; width: 100%; height: 100%; }
+/* Equipment slots: four 160 px squares, 20 px gaps, anchored at x90/y1000; only the upper 40 px show at the card edge.
+   Keep this geometry identical to Filled Character's .tokens.bottom. */
+.fp-blank .fp-bottom-tokens { left: 88px; right: auto; top: 998px; bottom: auto; gap: 20px; justify-content: flex-start; }
+.fp-blank .fp-bottom-tokens i { display: block; flex: 0 0 160px; width: 160px; height: 160px; margin: 0; border: 2px solid var(--line); border-radius: 0; background: #fff; }
+.fp-blank .fp-footer { position: absolute; left: 850px; right: 88px; top: 986px; height: 16px; text-align: center; font-size: 11px; line-height: 16px; letter-spacing: 2px; }

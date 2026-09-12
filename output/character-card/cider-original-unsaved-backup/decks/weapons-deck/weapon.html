@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="inner">
+        <div class="header">{{card.name}}</div>
+        <div class="art"></div>
+        <div class="stats-grid">
+            <div class="stat-title">Range</div>
+            <div class="stat-title">AP</div>
+            <div class="stat">{{card.range}}</div>
+            <div class="stat">{{card.ap}}</div>
+        </div>
+        <div class="stat-title">Keywords</div>
+        <div class="description">
+            {{card.keywords}}
+        </div>
+        <div class="footer">
+            <span>Halo Flashpoint RPG</span>
+            <span>{{#padZeros card.id 3}}{{/padZeros}}</span>
+        </div>
+    </div>
+</div>

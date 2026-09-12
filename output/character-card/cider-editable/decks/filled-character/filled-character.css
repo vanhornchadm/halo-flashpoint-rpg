@@ -1,0 +1,89 @@
+/* Editable Halo RPG card. Canvas: 1500 x 1040 px (5 x 3.47 inches at 300 dpi).
+   Palette, typography, geometry and every label can be edited here or in HTML.
+   All selectors are scoped so both templates can coexist in Cider. */
+.fp-card { --accent: {{#if card.accent}}{{card.accent}}{{else}}#18565a{{/if}}; --paper:#f7f6ef; --ink:#182325;
+ /* Secondary tones are mixed from the accent so each card stays in one colour family.
+    The plain value on each line is a fallback for renderers without color-mix; the
+    percentages are chosen to reproduce the original teal-sage when the accent is #18565a. */
+ --pale:#adc1bd; --pale:color-mix(in srgb, var(--accent) 33%, var(--paper));
+ --pale-deep:#8ca6a2; --pale-deep:color-mix(in srgb, var(--accent) 49%, var(--paper));
+ --row-alt:#d2ded8; --row-alt:color-mix(in srgb, var(--accent) 16%, var(--paper));
+ --line:#697376; --line:color-mix(in srgb, var(--accent) 30%, #7d8385);
+ --teal:var(--accent); /* back-compat alias for the old variable name */
+ position:relative;width:1500px;height:1040px;overflow:hidden;border:2px solid var(--accent);border-radius:38px;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:27px;line-height:1.18;box-sizing:border-box; }
+.fp-card * {box-sizing:border-box;}
+.fp-card .cap {background:var(--accent);color:white;font-weight:800;text-align:center;}
+.fp-card .banner {position:absolute;left:550px;right:0;top:0;height:146px;background:var(--accent);color:#fff;padding:48px 42px 12px 58px;clip-path:polygon(0 0,100% 0,100% 100%,36px 100%,0 calc(100% - 36px));}
+.fp-card .name {font-size:70px;font-weight:800;line-height:1.1;}
+.fp-card .subtitle {position:absolute;left:610px;top:158px;font-size:23px;letter-spacing:2px;font-weight:700;}
+.fp-card .traits {position:absolute;left:610px;right:95px;top:193px;font-size:29px;}
+.fp-card .portrait {position:absolute;left:0;top:0;width:549px;height:590px;overflow:hidden;}
+.fp-card .portrait img {width:100%;height:100%;object-fit:contain;object-position:bottom;}
+.fp-card .portrait.reference-crop img {position:absolute;width:1500px;height:1034px;max-width:none;left:0;top:0;object-fit:fill;}
+.fp-card .combat {position:absolute;left:610px;top:256px;width:380px;display:grid;grid-template-columns:repeat(3,1fr);}
+.fp-card .stat {text-align:center;border:1px solid var(--line);}
+.fp-card .combat .cap {font-size:46px;height:65px;display:grid;place-items:center;}
+.fp-card .value {height:78px;display:grid;place-items:center;font-size:44px;font-weight:700;background:var(--pale);}
+.fp-card .move,.fp-card .armor {position:absolute;top:417px;height:142px;background:var(--accent);color:white;text-align:center;}
+.fp-card .move {left:610px;width:208px;clip-path:polygon(0 0,80% 0,100% 50%,80% 100%,0 100%,20% 50%);padding-left:26px;}
+.fp-card .armor {left:848px;width:142px;clip-path:polygon(0 0,50% 16%,100% 0,100% 80%,50% 100%,0 80%);padding-top:15px;}
+.fp-card .shape-label {font-size:27px;font-weight:800;padding-top:16px;}
+.fp-card .shape-value {font-size:42px;font-weight:800;margin-top:12px;min-height:55px;}
+.fp-card .hp {position:absolute;left:1040px;top:254px;width:330px;height:314px;background:var(--pale);clip-path:polygon(25% 0,75% 0,100% 25%,100% 75%,75% 100%,25% 100%,0 75%,0 25%);text-align:center;}
+.fp-card .hp-label {position:absolute;left:82px;top:67px;width:166px;height:157px;border:2px solid white;color:white;font-size:70px;font-weight:800;display:grid;place-items:center;}
+.fp-card .hp-max {position:absolute;left:82px;top:224px;width:166px;height:90px;background:var(--pale-deep);display:grid;place-items:center;font-size:59px;font-weight:800;}
+.fp-card .max-label {display:none;}
+.fp-card .rail {position:absolute;top:202px;bottom:70px;width:72px;background:var(--pale);display:grid;place-items:center;z-index:3;}
+.fp-card .rail span {writing-mode:vertical-rl;font-size:26px;white-space:nowrap;}
+.fp-card .rail.left {left:0;clip-path:polygon(0 0,60% 0,100% 30px,100% 100%,0 100%);}
+.fp-card .rail.right {right:0;clip-path:polygon(40% 0,100% 0,100% 100%,0 100%,0 30px);}
+.fp-card .rail.right span {transform:rotate(180deg);}
+.fp-card .tokens {position:absolute;display:flex;justify-content:space-between;z-index:4;}
+.fp-card .tokens i {display:block;background:var(--pale);width:138px;height:38px;clip-path:polygon(0 0,100% 0,85% 100%,15% 100%);}
+.fp-card .tokens.top {top:0;left:812px;right:34px;}
+.fp-card .tokens.bottom {left:88px;right:auto;top:998px;bottom:auto;gap:20px;justify-content:flex-start;}
+.fp-card .tokens.bottom i {flex:0 0 160px;width:160px;height:160px;margin:0;border:2px solid var(--line);border-radius:0;clip-path:none;transform:none;background:var(--pale);}
+.fp-card .rp {position:absolute;left:85px;right:85px;top:590px;}
+.fp-card .section-title {height:43px;display:grid;place-items:center;font-size:28px;letter-spacing:1px;clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px);}
+.fp-card .rp-grid {display:grid;grid-template-columns:repeat(7,1fr);}
+.fp-card .rp .cap:not(.section-title) {height:50px;font-size:34px;display:grid;place-items:center;}
+.fp-card .rp .value {height:66px;font-size:41px;}
+.fp-card .equipped-note {position:absolute;top:754px;left:85px;right:85px;text-align:center;font-size:21px;}
+/* Weapon table. Each weapon is a group: its main profile row plus an optional
+   second profile row for an alt fire, a lunge or a melee profile. The card gains
+   class p1 and/or p2 when weapon 1 / weapon 2 has a second profile; the rules
+   below tighten the table so the extra rows clear the bottom token strip. */
+.fp-card .weapons {position:absolute;left:85px;right:85px;top:783px;}
+.fp-card .weapon-group {display:flex;flex-direction:column;}
+.fp-card .weapon-row {display:grid;grid-template-columns:1.22fr 1.35fr .6fr .44fr 1.55fr;text-align:center;min-height:63px;}
+.fp-card .weapon-row>div {padding:8px 12px;display:flex;align-items:center;justify-content:center;min-width:0;overflow-wrap:anywhere;}
+.fp-card .weapon-row.header {min-height:51px;font-size:29px;clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px);}
+.fp-card .weapon-row:not(.header) {font-size:27px;}
+.fp-card .weapon-group.g2 .weapon-row {background:var(--row-alt);}
+.fp-card .weapon-row.profile {min-height:44px;font-size:23px;border-top:1px solid rgba(24,35,37,.28);}
+.fp-card .weapon-row.profile>div {padding:4px 12px;}
+.fp-card .profile-mark {color:var(--accent);font-weight:800;margin-right:9px;}
+.fp-card .profile-label {font-weight:700;}
+/* One of the two weapons carries a second profile. The keyword column widens and
+   steps down a size here too: three rows plus the header leave little slack, so a
+   long keyword list must not wrap onto a second line. */
+.fp-card.p1 .weapon-row,.fp-card.p2 .weapon-row {grid-template-columns:1.05fr 1.28fr .55fr .4fr 1.82fr;}
+.fp-card.p1 .weapon-row.header,.fp-card.p2 .weapon-row.header {min-height:48px;font-size:27px;}
+.fp-card.p1 .weapon-row:not(.header),.fp-card.p2 .weapon-row:not(.header) {min-height:56px;font-size:25px;}
+.fp-card.p1 .weapon-row>div:nth-child(5),.fp-card.p2 .weapon-row>div:nth-child(5) {font-size:23px;}
+.fp-card.p1 .weapon-row.profile,.fp-card.p2 .weapon-row.profile {min-height:42px;font-size:22px;}
+.fp-card.p1 .weapon-row.profile>div:nth-child(5),.fp-card.p2 .weapon-row.profile>div:nth-child(5) {font-size:20px;}
+/* Both weapons carry a second profile; tightest fit. The keyword column is
+   widened and set smaller so long keyword lists stay on one line: four rows
+   plus the header must clear the bottom token strip at y=998. */
+.fp-card.p1.p2 .weapon-row {grid-template-columns:1.05fr 1.28fr .55fr .4fr 1.82fr;}
+.fp-card.p1.p2 .weapon-row.header {min-height:43px;font-size:25px;}
+.fp-card.p1.p2 .weapon-row:not(.header) {min-height:47px;font-size:23px;}
+.fp-card.p1.p2 .weapon-row>div {padding:5px 10px;line-height:1.1;}
+.fp-card.p1.p2 .weapon-row>div:nth-child(5) {font-size:21px;}
+.fp-card.p1.p2 .weapon-row.profile {min-height:36px;font-size:20px;}
+.fp-card.p1.p2 .weapon-row.profile>div {padding:3px 10px;}
+.fp-card.p1.p2 .weapon-row.profile>div:nth-child(5) {font-size:19px;}
+.fp-card .footer {position:absolute;top:986px;bottom:auto;left:850px;right:88px;height:16px;text-align:center;font-size:11px;line-height:16px;letter-spacing:2px;}
+/* The footer drops to the bottom edge when the tightened weapon table needs its row. */
+.fp-card.p1 .footer,.fp-card.p2 .footer {top:1012px;}

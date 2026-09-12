@@ -1,0 +1,19 @@
+<div class="fp-card filled{{#if card.[weapon-1-profile-2-label]}} p1{{/if}}{{#if card.[weapon-2-profile-2-label]}} p2{{/if}}">
+<div class="portrait {{#unless card.portrait}}reference-crop{{/unless}}"><img src="{{#if card.portrait}}{{index assets card.portrait}}{{else}}{{assets.spartan-art-source}}{{/if}}" alt="Spartan illustration"></div>
+<div class="banner"><div class="name">{{card.[character-name]}}</div></div>
+<div class="subtitle">{{card.species}} • RPG CHARACTER</div>
+<div class="traits">{{card.traits}}</div>
+<div class="combat"><div class="stat"><div class="cap">RA</div><div class="value">{{card.ra}}</div></div><div class="stat"><div class="cap">FI</div><div class="value">{{card.fi}}</div></div><div class="stat"><div class="cap">SV</div><div class="value">{{card.sv}}</div></div></div>
+<div class="move"><div class="shape-label">SPD</div><div class="shape-value">{{card.move}}</div></div>
+<div class="armor"><div class="shape-label">AR</div><div class="shape-value">{{card.defense}}</div></div>
+<div class="hp"><div class="hp-label">HP</div><div class="hp-max"><span class="max-label">MAX</span><span class="hp-number">{{card.hp}}</span></div></div>
+<div class="rail left"><span>Close combat weapon slot</span></div><div class="rail right"><span>Pick up slot</span></div>
+<div class="tokens top"><i></i><i></i><i></i><i></i></div><div class="tokens bottom"><i></i><i></i><i></i><i></i></div>
+<div class="rp"><div class="section-title cap">RP ATTRIBUTES</div><div class="rp-grid"><div class="stat"><div class="cap">STR</div><div class="value">{{card.str}}</div></div><div class="stat"><div class="cap">AGL</div><div class="value">{{card.agl}}</div></div><div class="stat"><div class="cap">INT</div><div class="value">{{card.int}}</div></div><div class="stat"><div class="cap">AW</div><div class="value">{{card.aw}}</div></div><div class="stat"><div class="cap">WIL</div><div class="value">{{card.wil}}</div></div><div class="stat"><div class="cap">FEL</div><div class="value">{{card.fel}}</div></div><div class="stat"><div class="cap">LCK</div><div class="value">{{card.lck}}</div></div></div></div>
+<div class="equipped-note">{{card.[profile-note]}}</div>
+<div class="weapons"><div class="weapon-row header cap"><div>Weapon Type</div><div>Weapon</div><div>Range</div><div>AP</div><div>Keywords</div></div>
+<div class="weapon-group g1"><div class="weapon-row"><div>{{card.[weapon-1-type]}}</div><div>{{card.[weapon-1-name]}}</div><div>{{card.[weapon-1-range]}}</div><div>{{card.[weapon-1-ap]}}</div><div>{{card.[weapon-1-keywords]}}</div></div>
+{{#if card.[weapon-1-profile-2-label]}}<div class="weapon-row profile"><div>{{card.[weapon-1-profile-2-type]}}</div><div><span class="profile-mark">&#8627;</span><span class="profile-label">{{card.[weapon-1-profile-2-label]}}</span></div><div>{{card.[weapon-1-profile-2-range]}}</div><div>{{card.[weapon-1-profile-2-ap]}}</div><div>{{card.[weapon-1-profile-2-keywords]}}</div></div>{{/if}}</div>
+<div class="weapon-group g2"><div class="weapon-row"><div>{{card.[weapon-2-type]}}</div><div>{{card.[weapon-2-name]}}</div><div>{{card.[weapon-2-range]}}</div><div>{{card.[weapon-2-ap]}}</div><div>{{card.[weapon-2-keywords]}}</div></div>
+{{#if card.[weapon-2-profile-2-label]}}<div class="weapon-row profile"><div>{{card.[weapon-2-profile-2-type]}}</div><div><span class="profile-mark">&#8627;</span><span class="profile-label">{{card.[weapon-2-profile-2-label]}}</span></div><div>{{card.[weapon-2-profile-2-range]}}</div><div>{{card.[weapon-2-profile-2-ap]}}</div><div>{{card.[weapon-2-profile-2-keywords]}}</div></div>{{/if}}</div>
+</div><div class="footer">UNOFFICIAL RPG CHARACTER CARD</div></div>
