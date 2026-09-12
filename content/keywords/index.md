@@ -31,7 +31,7 @@ Full definitions for character abilities, equipment, weapons, and conditions. Us
 - [[keywords/honor-guard|Honor Guard]]
 - [[keywords/honorable|Honorable]]
 - [[keywords/horde|Horde]]
-- [[keywords/hostile-possession|Hostile Possession]]
+- [[keywords/intrusion-protocol|Intrusion Protocol]]
 - [[keywords/hulking|Hulking]]
 - [[keywords/imposing|Imposing]]
 - [[keywords/infection|Infection]]

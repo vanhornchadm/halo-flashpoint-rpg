@@ -90,7 +90,7 @@ An AI is a separate character for its personal once-per-round allowance, even wh
 
 An AI and its host may not both use an order during the same activation because the party’s one-order-per-activation limit still applies.
 
-Attachment does not grant the AI an additional activation. [[keywords/digital|Digital]], [[keywords/neural-interface|Neural Interface]], and [[keywords/hostile-possession|Hostile Possession]] continue to govern its normal participation. An AI order grants only the specific exception stated in its effect.
+Attachment does not grant the AI an additional activation. [[keywords/digital|Digital]], [[keywords/neural-interface|Neural Interface]], and [[keywords/intrusion-protocol|Intrusion Protocol]] continue to govern its normal participation. An AI order grants only the specific exception stated in its effect.
 
 Any movement of a host carries its attached AI normally; this does not separately consume the AI’s out-of-activation movement allowance.
 

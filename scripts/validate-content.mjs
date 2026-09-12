@@ -15,7 +15,7 @@ for(const file of files){
   if(!['—', 'Auto'].includes(wil) || !text.includes('keywords/collective-will')) errors.push(`${file}: missing automatic WIL rule`)
  }
 }
-for(const [dir,count] of [['species',18],['special-orders',28],['talents',23],['disadvantages',2]]){
+for(const [dir,count] of [['species',18],['special-orders',29],['talents',0]]){
  const actual=files.filter(f=>f.startsWith(`content/${dir}/`)&&!f.endsWith('/index.md')).length
  if(actual!==count)errors.push(`${dir}: expected ${count}, got ${actual}`)
 }

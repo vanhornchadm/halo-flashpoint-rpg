@@ -121,7 +121,9 @@ An enemy within interaction range may use a long action to destroy the remains a
 
 ## Interaction with Other Rules
 
-**[[keywords/life-support|Life Support]]:** Retains its separate automatic, one-use effect. [[keywords/medic|Medic]] does not replenish it.
+**[[keywords/life-support|Life Support]]:** Retains its separate automatic, one-use effect. [[keywords/medic|Medic]] does not replenish it. A [[equipment/health-pack|Health Pack]] provides this effect or its listed manual full-HP recovery, consuming the same single use. Neither function revives a zero-HP character.
+
+**[[equipment/repair-field|Repair Field]]:** Has three total healing charges and respects the medical treatment or Construct repair limit for each target. It does not stabilize or revive casualties. Remaining charges stay finite outside combat.
 
 **[[keywords/infection|Infection]]:** Healing HP alone never removes an Infested marker. Stabilizing a casualty does not suspend conversion deadlines. Removing the infection is a separate treatment choice.
 

@@ -14,10 +14,11 @@ A table-ready reference for the campaign’s species, Skills, Talents, Special O
 ## Reference library
 
 - [[species/index|Species]] — 18 profiles with combat and RP stats.
-- [[talents/index|Character Creation Talents]] — selectable abilities and restrictions.
-- [[disadvantages/index|Disadvantages]] — optional character limitations.
+- [[talents/index|Character Creation Talents and Disadvantages]] — selectable abilities, limitations, and species restrictions.
 - [[special-orders/index|Special Orders]] — shared and species-specific abilities.
 - [[keywords/index|Keywords]] — the canonical rules definitions.
+- [[equipment/index|Equipment]] — 24 items, armor devices, and grenades.
+- [[rules/equipment|Equipment Rules]] — activation, charges, and campaign use.
 - [[rules/treatment|Medical Treatment and Repair]] — supply-based recovery.
 - [[rules/death-saves|Spartan Down — Death Saves]] — downed casualties, stabilization, and rescue.
 

@@ -5,7 +5,7 @@ tags: ["rules", "character-creation"]
 
 Talents represent training, innate abilities, and integrated capabilities. Starting Talents come from your species or background. Other Talents may be selected or learned if you meet their requirements. Equipment stays separate because its benefits depend on possessing functioning gear.
 
-Use [[talents/index|Character Creation Talents]] and [[disadvantages/index|Disadvantages]] for the current selectable lists. [[species/index|Species profiles]] grant their starting abilities separately. Being listed in the keyword reference does not make every ability selectable.
+Use [[talents/index|Character Creation Talents and Disadvantages]] for the current selectable list and species restrictions. [[species/index|Species profiles]] grant their starting abilities separately. Being listed in the keyword reference does not make every ability selectable.
 
 A keyword with **(n)** uses the value on your profile. Selectable ranked Talents begin at **(1)**. Higher values require a specific advancement award. A die cannot be rerolled more than once.
 

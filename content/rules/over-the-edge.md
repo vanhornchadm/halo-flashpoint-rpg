@@ -3,7 +3,7 @@ title: "Over the Edge"
 tags: ["rules", "house-rules"]
 ---
 
-Models can be pushed, blasted, or knocked off elevated terrain. Use the published forced-movement and falling rules, summarized below. The near-edge Pinning test and [[talents/breakfall|Breakfall]] Talent are house additions.
+Models can be pushed, blasted, or knocked off elevated terrain. Use the published forced-movement and falling rules, summarized below. The near-edge Pinning test and [[keywords/breakfall|Breakfall]] Talent are house additions.
 
 ## Forced Movement and Falling
 
@@ -48,4 +48,4 @@ The test requires no action. Roll **3d8 plus AGL**, with at least one die. Each 
 
 ## Landing on Your Feet
 
-[[talents/breakfall|Breakfall]] allows an Agility test to ignore Pinning caused by a fall. It does not reduce damage or remove Pinning from the attack or effect that caused the fall.
+[[keywords/breakfall|Breakfall]] allows an Agility test to ignore Pinning caused by a fall. It does not reduce damage or remove Pinning from the attack or effect that caused the fall.
