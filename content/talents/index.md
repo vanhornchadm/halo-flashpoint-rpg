@@ -6,6 +6,7 @@ tags: ["talents", "character-creation"]
 These are the current selectable keyword Talents for playable species. Species restrictions do not override physical requirements. Ranked selections begin at (1).
 
 - [[talents/agile|Agile]]
+- [[talents/breakfall|Breakfall]]
 - [[talents/covering-fire|Covering Fire]]
 - [[talents/deadeye|Deadeye]]
 - [[talents/elusive-1|Elusive (1)]]

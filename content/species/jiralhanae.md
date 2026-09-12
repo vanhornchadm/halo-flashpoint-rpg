@@ -25,5 +25,6 @@ tags: ["species", "playable"]
 
 - **Jiralhanae Harness:** +1 AR, +1 SV.
 - **Jiralhanae Shield Harness:** +2 AR, +1 SV, [[keywords/energy-shield|Energy Shield]] (2)
+- **Plated Armor:** +2 AR, +1 SV, [[keywords/ablative-armour|Ablative Armour]] (3). Replaces either harness; its bonuses do not stack with a harness.
 
 **Special Order Classification:** Brute

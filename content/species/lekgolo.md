@@ -15,7 +15,7 @@ tags: ["species", "npc"]
 |---|---|---|---|---|---|---|
 | +2 | -1 | 0 | 0 | 0 | 0 | 0 |
 
-**Starting Talents:** [[keywords/bond-brothers|Bond Brothers]], [[keywords/guarded|Guarded]], [[keywords/stoic|Stoic]], [[keywords/imposing|Imposing]].
+**Starting Talents:** [[keywords/bond-brothers|Bond Brothers]], [[keywords/guarded|Guarded]], [[keywords/stoic|Stoic]], [[keywords/imposing|Imposing]], [[keywords/hulking|Hulking]].
 
 **Natural Weapons:**
 
@@ -24,6 +24,6 @@ tags: ["species", "npc"]
 
 **Equipment:**
 
-- **Lekgolo Harness:** +3 AR.
+- **Lekgolo Harness:** +2 AR, [[keywords/ablative-armour|Ablative Armour]] (3).
 
 **Note:** Designate the bonded Hunter partner. Only that partner being taken out of action triggers [[keywords/bond-brothers|Bond Brothers]].
