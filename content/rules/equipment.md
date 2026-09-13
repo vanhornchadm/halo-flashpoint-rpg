@@ -35,7 +35,7 @@ There are no automatic rest, scene, or encounter refreshes. Ending an encounter 
 
 ## Distances and Areas
 
-Profiles use inches. The starting adaptation is **4" per cube**: R3 becomes 12", R4 becomes 16", and two cubes become 8". Use the actual placement ranges and area radii in each item entry rather than rebuilding cube adjacency on the table.
+Profiles use inches. The starting adaptation is **4" per cube**: R3 becomes 12", R4 becomes 16", and two cubes become 8". Use the actual placement ranges and area radii in each item entry rather than rebuilding cube adjacency on the table. Hand-thrown grenades list a base range: add **4" × the thrower’s current STR**, to a minimum range of **4"**, following [[keywords/grenade|Grenade]].
 
 Area effects affect allies and enemies unless stated otherwise. Detection reveals positions; it does not allow attacks through solid terrain. Threat Sensor and Promethean Vision explicitly counter camouflage and shroud concealment, while physical cover remains relevant.
 

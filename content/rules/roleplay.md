@@ -15,7 +15,7 @@ Straightforward actions succeed without a roll. Impossible actions require a dif
 
 | Attribute | Used for |
 |---|---|
-| **Strength (STR)** | Lifting, carrying, forcing obstacles, and exerting physical power. |
+| **Strength (STR)** | Lifting, carrying, forcing obstacles, exerting physical power, and determining hand-thrown [[keywords/grenade|Grenade]] range. |
 | **Agility (AGL)** | Stealth, balance, coordination, and precise movement. |
 | **Intelligence (INT)** | Technical tasks, knowledge, reasoning, and analysis. |
 | **Awareness (AW)** | Noticing danger, searching, tracking, and reading immediate cues. |

@@ -3,23 +3,16 @@ title: "Special Orders"
 tags: ["special-orders"]
 ---
 
-Use [[rules/special-orders|Special Orders Rules]] for costs, activation limits, AI participation, and noncombat use. On My Mark was replaced by the ordinary **+1 Model** Command result.
-
+Use [[rules/special-orders|Special Orders Rules]] for costs, activation limits, AI participation, and noncombat use.
 ## Shared Special Orders
 
-- [[special-orders/leave-no-one-behind|Leave No One Behind]]
 - [[special-orders/cover-me|Cover Me]]
-- [[special-orders/take-the-hit|Take the Hit]]
-- [[special-orders/ghost-signal|Ghost Signal]]
-- [[special-orders/field-expedient|Field Expedient]]
 - [[special-orders/not-yet|Not Yet]]
-- [[special-orders/change-of-plan|Change of Plan]]
 
 ## Spartans
 
 - [[special-orders/snap-shot|Snap Shot]]
 - [[special-orders/combat-calculated|Combat Calculated]]
-- [[special-orders/threat-assessment|Threat Assessment]]
 
 ## UNSC Personnel
 
@@ -28,7 +21,6 @@ Use [[rules/special-orders|Special Orders Rules]] for costs, activation limits, 
 ## Elites — Sangheili
 
 - [[special-orders/warrior-s-challenge|Warrior’s Challenge]]
-- [[special-orders/strike-from-concealment|Strike from Concealment]]
 
 ## Brutes — Jiralhanae
 

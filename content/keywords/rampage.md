@@ -11,7 +11,7 @@ If you begin your activation wounded, resolve [[keywords/headstrong|Headstrong]]
 
 - **1–2:** The opposing side controls your actions for this activation.
 - **3–6:** You act normally.
-- **7–8:** You act normally and may first make a free Stand Up action or move up to 4".
+- **7–8:** You act normally and may first make a free Stand Up action or make an Advance move.
 
 While controlled by the opposing side, you count as belonging to neither side. You may attack former allies, and neither combatant receives the normal nearby-friendly-character bonus during those Assaults.
 

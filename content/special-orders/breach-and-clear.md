@@ -9,7 +9,7 @@ tags: ["special-orders", "odsts"]
 
 **When:** During your activation, you open or cross a narrow entrance into a hostile area.
 
-**Effect:** A willing, unpinned, unengaged ally within 4" who can hear you may move up to 4" through the same entrance, ending beyond it.
+**Effect:** A willing, unpinned, unengaged ally within 6" may make an Advance move through the same entrance, ending beyond it.
 
 They cannot enter engagement. Resolve traps, hazards, and applicable reactions normally.
 

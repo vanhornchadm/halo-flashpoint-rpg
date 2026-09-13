@@ -9,7 +9,7 @@ tags: ["special-orders", "odsts"]
 
 **When:** During your activation, you complete a descent by drop pod, jump pack, rappel line, or survivable drop.
 
-**Effect:** After resolving landing tests and damage, if conscious and unpinned, move up to 4" or make a free short Shoot action.
+**Effect:** After resolving landing tests and damage, if conscious and unpinned, make a free Advance move or make a free short Shoot action.
 
 The movement may enter engagement without granting a free Assault. Shooting follows normal restrictions.
 

@@ -7,7 +7,7 @@ tags: ["special-orders", "unsc-personnel"]
 
 **Restriction:** Spartans, UNSC Marines, or ODSTs capable of throwing grenades.
 
-**When:** A thrown grenade lands within 4", including after scatter, before [[keywords/sticky|Sticky]], [[keywords/blast|Blast]], or other effects resolve. You must be unpinned, unengaged, and able to reach it with up to 4" of movement.
+**When:** A thrown grenade lands within Advance range, including after scatter, before [[keywords/sticky|Sticky]], [[keywords/blast|Blast]], or other effects resolve. You must be unpinned, unengaged, and able to reach it with an Advance move.
 
 **Effect:** Move to the grenade without entering engagement, then make a **3-dice Survive test (2)**.
 

@@ -54,8 +54,7 @@ Resolve an order at its stated trigger, before continuing the interrupted sequen
 A free action does not consume a normal action and may repeat an action already performed. It does not grant another activation or remove an activation marker.
 
 Unless stated otherwise, movement granted by an order:
-
-- Is voluntary movement of up to **4"**.
+- Is voluntary movement of up the character's Advance Speed stat.
 - Follows normal terrain and Break Away rules.
 - Cannot be taken by a character unable to move.
 - Does not grant a free Assault when entering engagement.
@@ -70,7 +69,7 @@ Advance, Shoot, Assault, Dice Symbol, and +1 Model remain ordinary Command resul
 
 A character may use only **one of Advance, Shoot, or Assault** during its activation. A Special Order is separate from that limit.
 
-The ordinary Advance Command result grants up to **4"** of movement. Shoot and Assault follow their normal rules.
+The ordinary Advance Command result grants up to the first value in the character's SPD stat. Shoot and Assault follow their normal rules.
 
 **+1 Model replaces On My Mark.** After a friendly activation, the party may spend +1 Model to activate a second character who has not activated that round. This cannot be used on the party’s first turn of the round. Finish the first activation before beginning the second; actions cannot be interleaved. No more than two characters may activate on that party turn.
 
