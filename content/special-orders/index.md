@@ -51,7 +51,3 @@ Use [[rules/special-orders|Special Orders Rules]] for costs, activation limits, 
 ## Artificial Intelligences
 
 - [[special-orders/hostile-takeover|Hostile Takeover]]
-- [[special-orders/predictive-modeling|Predictive Modeling]]
-- [[special-orders/sensor-echo|Sensor Echo]]
-- [[special-orders/parallel-processing|Parallel Processing]]
-- [[special-orders/emergency-transfer|Emergency Transfer]]
