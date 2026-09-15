@@ -11,7 +11,7 @@ tags: ["species", "npc"]
 |---|---|---|---|---|---|---|
 | -1 | +2 | 0 | +1 | +2 | -1 | 0 |
 
-**Starting Talents:** [[keywords/construct|Construct]], [[keywords/flight|Flight]], [[keywords/repair|Repair]], [[keywords/knight-reconstruction|Knight Reconstruction]]
+**Starting Talents:** [[keywords/beast|Beast]], [[keywords/construct|Construct]], [[keywords/flight|Flight]], [[keywords/repair|Repair]], [[keywords/knight-reconstruction|Knight Reconstruction]]
 
 **Natural Weapons:** None
 

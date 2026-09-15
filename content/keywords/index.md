@@ -108,10 +108,5 @@ Full definitions for character abilities, equipment, weapons, and conditions. Us
 
 ## Additional Talents
 
-- [[keywords/instructor|Instructor]]
-- [[keywords/methodical|Methodical]]
-- [[keywords/practiced-recall|Practiced Recall]]
-- [[keywords/read-the-room|Read the Room]]
 - [[keywords/controlled-force|Controlled Force]]
-- [[keywords/sure-footed|Sure-Footed]]
 - [[keywords/odst-training|ODST Training]]

@@ -43,6 +43,6 @@ Selecting a Disadvantage does not automatically award points or another Talent.
 | [[keywords/honorable|Honorable]] | None |
 | [[keywords/rampage|Rampage]] | None |
 
-Additional drafted RP Talents are collected under [[keywords/index#Additional Talents|Additional Talents]]; their creation availability has not been established.
+Additional drafted combat Talents are collected under [[keywords/index#Additional Talents|Additional Talents]]; their creation availability has not been established.
 
 See [[rules/talents|selection rules]].
