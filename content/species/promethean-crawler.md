@@ -3,8 +3,6 @@ title: "Promethean Crawler"
 tags: ["species", "npc"]
 ---
 
-*A relentless machine built to close the distance.*
-
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
 | 6"/9" | 6+ | 4+ | 5+ | 3 |

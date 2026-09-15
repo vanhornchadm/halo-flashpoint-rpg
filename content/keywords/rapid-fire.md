@@ -3,8 +3,6 @@ title: "Rapid Fire"
 tags: ["keywords", "weapon-keywords"]
 ---
 
-*Sometimes the objective is keeping heads down.*
-
 When taking a Shoot action, choose normal fire or **Blaze Away** before rolling.
 
 Blaze Away is a short action. Follow normal range and LOS requirements.

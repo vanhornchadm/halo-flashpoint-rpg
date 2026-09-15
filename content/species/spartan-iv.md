@@ -3,8 +3,6 @@ title: "Spartan IV"
 tags: ["species", "playable"]
 ---
 
-*Augmented soldiers equipped to face overwhelming odds.*
-
 **Availability:** Playable.
 
 | SPD | RA | FI | SV | HP |

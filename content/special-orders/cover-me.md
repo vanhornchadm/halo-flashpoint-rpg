@@ -3,8 +3,6 @@ title: "Cover Me"
 tags: ["special-orders", "shared-special-orders"]
 ---
 
-*“Keep their heads down. I only need a few seconds.”*
-
 **Restriction:** None.
 
 **When:** You cause at least 1 wound with a Shoot action.

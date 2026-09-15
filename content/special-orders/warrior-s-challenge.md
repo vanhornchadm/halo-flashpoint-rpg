@@ -3,8 +3,6 @@ title: "Warrior’s Challenge"
 tags: ["special-orders", "elites-sangheili"]
 ---
 
-*“Let your skill answer mine.”*
-
 **Restriction:** Elites.
 
 **When:** You declare an Assault against an enemy that is not engaged with an ally.

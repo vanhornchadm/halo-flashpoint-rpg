@@ -5,8 +5,6 @@ tags: ["rules", "character-creation"]
 
 ## Skills
 
-*Your attributes describe your capabilities. Your Skills describe what experience has taught you.*
-
 Skills are subjects, activities, or areas of expertise your character knows well. Examples include **Field Medicine, Piloting, Covenant History, Demolitions, Tracking, Negotiation,** or **Forerunner Technology**.
 
 ### Choosing Skills

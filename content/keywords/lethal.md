@@ -3,8 +3,6 @@ title: "Lethal (n)"
 tags: ["keywords", "weapon-keywords"]
 ---
 
-*Even a small wound becomes devastating.*
-
 If an attack with this weapon causes at least one wound after applicable defenses, inflict **n additional wounds**.
 
 Apply this once per attack against that target, not once per wound.

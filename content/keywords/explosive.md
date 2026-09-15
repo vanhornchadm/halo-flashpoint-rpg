@@ -3,13 +3,11 @@ title: "Explosive"
 tags: ["keywords", "weapon-keywords"]
 ---
 
-*Close is often close enough.*
-
 Take a Shoot action and choose a point within the weapon’s range and your LOS.
 
 Make a **3-dice Ranged test (1)** with no modifiers or rerolls.
 
-On success, the attack lands at the chosen point. On failure, scatter the impact point **4"** in the indicated direction.
+On success, the attack lands at the chosen point. On failure, resolve [[keywords/scatter|Scatter]] from the chosen point.
 
 Explosive attacks do not bounce off walls. If the impact scatters off the battlefield, the attack misses.
 

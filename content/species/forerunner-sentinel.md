@@ -3,8 +3,6 @@ title: "Forerunner Sentinel"
 tags: ["species", "npc"]
 ---
 
-*An autonomous machine carrying out its assigned purpose.*
-
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
 | 6"/9" | 5+ | — | 5+ | 3 |

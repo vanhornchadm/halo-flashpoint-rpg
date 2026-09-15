@@ -3,8 +3,6 @@ title: "Flood Infection Form"
 tags: ["species", "npc"]
 ---
 
-*Small enough to overlook. Dangerous enough to end everything.*
-
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
 | 3"/5" | — | 6+ | 7+ | 1 |

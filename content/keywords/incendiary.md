@@ -3,8 +3,6 @@ title: "Incendiary"
 tags: ["keywords", "weapon-keywords"]
 ---
 
-*The danger remains after the shot.*
-
 Choose a point within range and LOS. Roll the weapon’s listed attack dice as a **Ranged test (X)**, with no modifiers.
 
 Every character within **4"** makes a separate **3-dice Survive test (X)**. Compare successes and resolve Hits normally.

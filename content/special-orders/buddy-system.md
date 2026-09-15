@@ -3,8 +3,6 @@ title: "Buddy System"
 tags: ["special-orders", "marines"]
 ---
 
-*“Up, Marine. I’ve got you.”*
-
 **Restriction:** UNSC Marines.
 
 **When:** At the start of your activation, a willing ally within 6" is Pinned.

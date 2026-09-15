@@ -3,8 +3,6 @@ title: "Support Weapon"
 tags: ["keywords", "weapon-keywords"]
 ---
 
-*Heavy firepower carries a burden.*
-
 While carrying this weapon:
 
 - You cannot Sprint or throw grenades.

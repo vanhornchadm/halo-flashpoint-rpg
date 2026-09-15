@@ -3,8 +3,6 @@ title: "Yanme’e"
 tags: ["species", "npc"]
 ---
 
-*The battlefield extends above everyone else’s head.*
-
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
 | 6"/9" | 6+ | 6+ | 7+ | 2 |

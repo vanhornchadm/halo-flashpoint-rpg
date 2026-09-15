@@ -3,8 +3,6 @@ title: "Active Camouflage"
 tags: ["keywords", "equipment-and-integrated-systems"]
 ---
 
-*Your outline dissolves into the background.*
-
 While your personal Energy Shields are fully charged, enemies cannot draw LOS to you from more than **8"** away.
 
 Enemies within 8" may draw LOS, but suffer **−2 dice** on Ranged tests against you.

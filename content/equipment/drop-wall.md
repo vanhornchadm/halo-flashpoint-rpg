@@ -5,7 +5,11 @@ tags: ["equipment", "type-ii"]
 
 **Type II · Short Auxiliary action**
 
-Place an [[keywords/energy-shield-barrier|Energy Shield Barrier (2)]] marker at your position.
+**[[keywords/thrown|Thrown (12")]].**
+
+Deploy onto a legal supporting surface along an unobstructed path. No placement test is required.
+
+Place an [[keywords/energy-shield-barrier|Energy Shield Barrier (2)]] marker within Thrown range and LOS, including at your position.
 
 It protects every character within **4"** against ranged attacks originating outside that radius, including enemies. Its **two charges are shared by everyone it protects**, and it offers no protection against attacks from inside the radius. Remove it when depleted or when the encounter ends.
 

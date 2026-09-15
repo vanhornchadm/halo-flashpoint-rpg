@@ -3,8 +3,6 @@ title: "Target Acquired"
 tags: ["special-orders", "marines"]
 ---
 
-*“Marked target. Concentrate your fire.”*
-
 **Restriction:** UNSC Marines.
 
 **When:** You score at least 1 success on a direct Shoot test, whether or not it causes damage.

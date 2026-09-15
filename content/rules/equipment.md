@@ -3,8 +3,6 @@ title: "Equipment Rules"
 tags: ["rules", "equipment"]
 ---
 
-*Training gives you options. The right equipment opens another route.*
-
 Equipment is physical gear that grants its stated actions, bonuses, or keywords while functioning. It is acquired through character creation, requisition, salvage, or play, rather than selected as a Talent. See the [[equipment/index|Equipment Reference]] for item profiles.
 
 ## Types and Availability
@@ -29,19 +27,19 @@ Check legal targets and declare choices before spending the use. Once activated,
 
 **[[keywords/one-use|One-Use]]** expends one item or one recorded charge, as its profile specifies. Reusable hardware may remain in the inventory, but it does not restore its own charges. Multiple charges must be established when the equipment is obtained; the label does not grant an unspecified reserve.
 
-A deployment charge creates the listed object for its stated duration. It is not another charge each time someone benefits from that object. Switching off or recovering equipment does not replenish it. Repair Fields retain only their recorded unspent healing charges.
+A deployment charge creates the listed object for its stated duration. It is not another charge each time someone benefits from that object. Switching off or recovering equipment does not replenish it.
 
 There are no automatic rest, scene, or encounter refreshes. Ending an encounter may end an active effect, but never replenishes the item that produced it. Normal personal shield regeneration continues under [[keywords/energy-shield|Energy Shield]]; temporary equipment shields regenerate only if explicitly stated.
 
 ## Distances and Areas
 
-Profiles use inches. The starting adaptation is **4" per cube**: R3 becomes 12", R4 becomes 16", and two cubes become 8". Use the actual placement ranges and area radii in each item entry rather than rebuilding cube adjacency on the table. Hand-thrown grenades list a base range: add **4" × the thrower’s current STR**, to a minimum range of **4"**, following [[keywords/grenade|Grenade]].
+Profiles use inches. The starting adaptation is **4" per cube**: R3 becomes 12", R4 becomes 16", and two cubes become 8". Area attacks use [[keywords/small-blast|Small Blast]] or [[keywords/large-blast|Large Blast]] templates instead of rebuilding cube adjacency on the table. Weapons and equipment with [[keywords/thrown|Thrown (n)]] use that keyword to calculate their throwing distance instead of a fixed range. Their action costs remain as listed.
 
-Area effects affect allies and enemies unless stated otherwise. Detection reveals positions; it does not allow attacks through solid terrain. Threat Sensor and Promethean Vision explicitly counter camouflage and shroud concealment, while physical cover remains relevant.
+Area effects affect allies and enemies unless stated otherwise. Detection reveals positions; it does not allow attacks through solid terrain. Threat Sensor explicitly counters camouflage and shroud concealment, while physical cover remains relevant.
 
 ## Medical Equipment
 
-Follow [[rules/treatment|Medical Treatment and Repair]] for supply compatibility and recovery limits. A [[equipment/health-pack|Health Pack]] is a specific one-use full-HP recovery exception and cannot revive a zero-HP character. A [[equipment/repair-field|Repair Field]] has three total healing charges, respects per-target treatment limits, and cannot stabilize or revive casualties. Neither provides unlimited recovery between encounters.
+Follow [[rules/treatment|Medical Treatment and Repair]] for supply compatibility and recovery limits. A [[equipment/health-pack|Health Pack]] is a specific one-use full-HP recovery exception and cannot revive a zero-HP character. A [[equipment/repair-field|Repair Field]] lasts until the encounter ends or it is destroyed, respects per-target treatment limits, and cannot stabilize or revive casualties. Neither provides unlimited recovery between encounters.
 
 ## Outside Combat
 
@@ -51,4 +49,4 @@ Before using a device whose duration is expressed in combat rounds or activation
 
 ## Equipment Progression
 
-Possible mission rewards include additional compatible charges, greater grappling reach, an expanded sensor area, or a hologram that reproduces a recorded phrase. These are upgrade ideas, not automatic benefits. Record an upgrade's exact change on the device before use, including any revised range, action cost, charges, or restrictions. Equipment upgrades do not automatically replace Talents or grant new Special Orders.
+Possible mission rewards include additional compatible charges, greater grappling reach, or an expanded sensor area. These are upgrade ideas, not automatic benefits. Record an upgrade's exact change on the device before use, including any revised range, action cost, charges, or restrictions. Equipment upgrades do not automatically replace Talents or grant new Special Orders.

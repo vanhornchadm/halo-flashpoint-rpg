@@ -3,8 +3,6 @@ title: "Distributed Targeting"
 tags: ["special-orders", "prometheans"]
 ---
 
-*What one construct sees, the network can prosecute.*
-
 **Restriction:** Prometheans.
 
 **When:** You declare a direct Shoot attack against an enemy visible to another friendly Promethean within 8" of you.

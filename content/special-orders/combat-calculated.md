@@ -3,8 +3,6 @@ title: "Combat Calculated"
 tags: ["special-orders", "spartans"]
 ---
 
-*One threat eliminated. The next move is already planned.*
-
 **Restriction:** Spartans.
 
 **When:** During your activation, you incapacitate an enemy with a Shoot or Assault action.

@@ -3,8 +3,6 @@ title: "Promethean Watcher"
 tags: ["species", "npc"]
 ---
 
-*An airborne support construct that keeps its allies operational.*
-
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
 | 6"/9" | 6+ | — | 5+ | 2 |

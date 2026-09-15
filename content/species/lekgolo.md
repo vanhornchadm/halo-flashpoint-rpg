@@ -3,8 +3,6 @@ title: "Lekgolo"
 tags: ["species", "npc"]
 ---
 
-*Many organisms acting with a single, formidable purpose.*
-
 **Configuration:** Hunter.
 
 | SPD | RA | FI | SV | HP |

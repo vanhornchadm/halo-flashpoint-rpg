@@ -3,8 +3,6 @@ title: "Sniper Scope"
 tags: ["keywords", "weapon-keywords"]
 ---
 
-*Take the time. Make the shot.*
-
 Choose a normal short Shoot action or a long scoped Shoot action before rolling.
 
 The long version gains **+2 dice**, and Headshots occur on **7 or 8**.

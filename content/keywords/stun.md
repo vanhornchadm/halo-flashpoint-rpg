@@ -3,9 +3,7 @@ title: "Stun"
 tags: ["keywords", "weapon-keywords"]
 ---
 
-*For a moment, the fight moves on without you.*
-
-On a weapon with [[keywords/grenade|Grenade]], the attack causes no damage. Instead, every character within **4"** of the impact point is marked as activated.
+On a weapon with [[keywords/grenade|Grenade]], the attack causes no damage. Instead, every character covered by its [[keywords/small-blast|Small Blast]] or [[keywords/large-blast|Large Blast]] template is marked as activated.
 
 Otherwise, resolve a normal Ranged or Fight test. If you score more successes than the target, resolve damage normally and mark it as activated.
 

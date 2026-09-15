@@ -4,8 +4,6 @@ tags: ["rules", "combat"]
 ---
 
 
-*Training wins engagements. Sometimes survival demands something extraordinary.*
-
 Special Orders represent moments of exceptional coordination, ingenuity, determination, or instinct. Each order has a restriction, a trigger, and an effect.
 
 ## The Shared Command Pool

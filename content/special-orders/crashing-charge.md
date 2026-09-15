@@ -3,8 +3,6 @@ title: "Crashing Charge"
 tags: ["special-orders", "brutes-jiralhanae"]
 ---
 
-*The warriors in your path are obstacles, not your destination.*
-
 **Restriction:** Brutes.
 
 **When:** While unengaged, you declare an Advance or Sprint that will engage a chosen enemy.

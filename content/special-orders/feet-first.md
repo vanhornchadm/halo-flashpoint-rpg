@@ -3,8 +3,6 @@ title: "Feet First"
 tags: ["special-orders", "odsts"]
 ---
 
-*The landing is just the beginning of the assault.*
-
 **Restriction:** ODSTs.
 
 **When:** During your activation, you complete a descent by drop pod, jump pack, rappel line, or survivable drop.

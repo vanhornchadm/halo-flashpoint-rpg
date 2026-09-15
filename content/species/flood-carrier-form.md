@@ -3,8 +3,6 @@ title: "Flood Carrier Form"
 tags: ["species", "npc"]
 ---
 
-*A living delivery system for the next wave.*
-
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
 | 4" | — | — | 5+ | 3 |

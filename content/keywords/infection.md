@@ -3,8 +3,6 @@ title: "Infection"
 tags: ["keywords", "character-keywords"]
 ---
 
-*One wound can become an invasion.*
-
 Constructs, [[keywords/digital|Digital]] characters, and Flood are immune to Infection.
 
 When you cause at least one wound with a CC Assault attack, after damage prevention, you may attach to the target. Remove your model and give the target an **Infested marker**.

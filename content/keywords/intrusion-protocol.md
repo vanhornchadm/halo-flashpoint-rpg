@@ -3,8 +3,6 @@ title: "Intrusion Protocol"
 tags: ["keywords", "character-keywords"]
 ---
 
-*Every unsecured machine is a possible doorway.*
-
 **Requirement:** [[keywords/digital|Digital]].
 
 Spend one short action to target an enemy [[keywords/construct|Construct]] within 8" and LOS of your host or storage device. This is permitted while unattached or engaged.

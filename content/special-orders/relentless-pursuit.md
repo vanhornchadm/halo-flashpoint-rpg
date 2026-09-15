@@ -3,8 +3,6 @@ title: "Relentless Pursuit"
 tags: ["special-orders", "flood"]
 ---
 
-*Distance is only a temporary reprieve.*
-
 **Restriction:** Flood.
 
 **When:** An enemy begins voluntary movement within 6" of you and finishes farther away.

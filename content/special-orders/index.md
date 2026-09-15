@@ -22,6 +22,10 @@ Use [[rules/special-orders|Special Orders Rules]] for costs, activation limits, 
 
 - [[special-orders/warrior-s-challenge|Warrior’s Challenge]]
 
+## Jackals — Kig-yar
+
+- [[special-orders/no-second-peek|No Second Peek]]
+
 ## Brutes — Jiralhanae
 
 - [[special-orders/defiance|Defiance]]

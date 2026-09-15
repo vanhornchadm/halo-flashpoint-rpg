@@ -3,8 +3,6 @@ title: "Rampage"
 tags: ["keywords", "conditions-and-complications"]
 ---
 
-*Pain overwhelms discipline.*
-
 This is a complication, not an ordinary selectable Talent.
 
 If you begin your activation wounded, resolve [[keywords/headstrong|Headstrong]] first where applicable, then roll a d8:

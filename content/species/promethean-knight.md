@@ -3,8 +3,6 @@ title: "Promethean Knight"
 tags: ["species", "npc"]
 ---
 
-*A heavily armed construct capable of appearing where it is least welcome.*
-
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
 | 4"/9" | 4+ | 4+ | 4+ | 4 |

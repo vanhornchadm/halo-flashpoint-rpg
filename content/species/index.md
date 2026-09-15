@@ -3,8 +3,6 @@ title: "Species"
 tags: ["species"]
 ---
 
-*Your species supplies a foundation. Your experience determines what you build on it.*
-
 Each profile separates baseline stats from Starting Talents, Natural Weapons, and Equipment.
 
 **Combat stats:** SPD lists Advance/Sprint movement. RA, FI, and SV are target numbers; lower is better. HP is maximum health.

@@ -9,20 +9,15 @@ Physical gear, consumables, and armor devices for the campaign. Start with [[rul
 
 - [[equipment/hardlight-shield|Hardlight Shield]]
 - [[equipment/health-pack|Health Pack]]
-- [[equipment/intel|Intel]]
+- [[equipment/jetpack|Jetpack]]
 
 ## Type II — Activated Devices
 
 - [[equipment/active-camouflage|Active Camouflage]]
-- [[equipment/armor-lock|Armor Lock]]
-- [[equipment/bubble-shield|Bubble Shield]]
 - [[equipment/drop-wall|Drop Wall]]
 - [[equipment/grappleshot|Grappleshot]]
-- [[equipment/hologram|Hologram]]
-- [[equipment/jetpack|Jetpack]]
 - [[equipment/overshield|Overshield]]
 - [[equipment/portable-gravity-lift|Portable Gravity Lift]]
-- [[equipment/promethean-vision|Promethean Vision]]
 - [[equipment/quantum-translocator|Quantum Translocator]]
 - [[equipment/repair-field|Repair Field]]
 - [[equipment/repulsor|Repulsor]]

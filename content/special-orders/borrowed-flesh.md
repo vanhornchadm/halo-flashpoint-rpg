@@ -3,8 +3,6 @@ title: "Borrowed Flesh"
 tags: ["special-orders", "flood"]
 ---
 
-*Nothing on this battlefield needs to go to waste.*
-
 **Restriction:** Flood forms capable of consuming biomass.
 
 **When:** During your activation, you are within interaction range of an unconsumed organic corpse. **You may use this order while Pinned, before taking your normal actions.**

@@ -3,8 +3,6 @@ title: "Artificial Intelligence"
 tags: ["species", "playable"]
 ---
 
-*A mind whose reach depends on the systems it can access.*
-
 **Availability:** Playable
 
 | SPD | RA | FI | SV | HP |

@@ -3,8 +3,6 @@ title: "Knight Reconstruction"
 tags: ["keywords", "character-keywords"]
 ---
 
-*The pattern survives the shell.*
-
 **Requirement:** [[keywords/repair|Repair]] and compatible Promethean Watcher reconstruction systems.
 
 Take a long action within 4" and LOS of a destroyed friendly Promethean Knight’s recoverable remains. Spend one compatible reconstruction charge.

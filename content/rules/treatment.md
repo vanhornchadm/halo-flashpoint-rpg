@@ -3,8 +3,6 @@ title: "Medical Treatment and Repair"
 tags: ["rules", "healing"]
 ---
 
-*Expertise keeps people and machines operational. Supplies make the work possible.*
-
 These rules replace unrestricted healing from [[keywords/medic|Medic]] and split ordinary [[keywords/repair|Repair]] from Knight reconstruction.
 
 They require no rest schedule or new recovery currency. Medical supplies and repair parts are expendable equipment.
@@ -123,7 +121,7 @@ An enemy within interaction range may use a long action to destroy the remains a
 
 **[[keywords/life-support|Life Support]]:** Retains its separate automatic, one-use effect. [[keywords/medic|Medic]] does not replenish it. A [[equipment/health-pack|Health Pack]] provides this effect or its listed manual full-HP recovery, consuming the same single use. Neither function revives a zero-HP character.
 
-**[[equipment/repair-field|Repair Field]]:** Has three total healing charges and respects the medical treatment or Construct repair limit for each target. It does not stabilize or revive casualties. Remaining charges stay finite outside combat.
+**[[equipment/repair-field|Repair Field]]:** Restores 1 HP to each eligible character in its area at each round end until the encounter ends or the field is destroyed, and respects the medical treatment or Construct repair limit for each target. It does not stabilize or revive casualties.
 
 **[[keywords/infection|Infection]]:** Healing HP alone never removes an Infested marker. Stabilizing a casualty does not suspend conversion deadlines. Removing the infection is a separate treatment choice.
 

@@ -3,8 +3,6 @@ title: "Unggoy"
 tags: ["species", "playable"]
 ---
 
-*Individually vulnerable, collectively difficult to ignore.*
-
 **Availability:** Playable
 
 | SPD | RA | FI | SV | HP |

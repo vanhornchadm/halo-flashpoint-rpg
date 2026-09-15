@@ -3,8 +3,6 @@ title: "Read the Room"
 tags: ["keywords", "talents"]
 ---
 
-*You watch the people listening.*
-
 After succeeding on an AW test to observe a social interaction, ask one additional question:
 
 - Who appears most uneasy?

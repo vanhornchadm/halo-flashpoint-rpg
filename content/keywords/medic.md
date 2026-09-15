@@ -3,8 +3,6 @@ title: "Medic"
 tags: ["keywords", "character-keywords"]
 ---
 
-*You buy people another chance.*
-
 Once during your activation, spend one medical supply use and perform a **free Auxiliary action** on an eligible target within 4" and LOS. You need suitable tools and physical access.
 
 Choose one:

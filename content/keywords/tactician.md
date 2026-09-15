@@ -3,8 +3,6 @@ title: "Tactician (n)"
 tags: ["keywords", "character-keywords"]
 ---
 
-*You make the whole squad more effective.*
-
 While conscious and participating in combat, contribute the following to your side’s shared Command pool:
 
 - **n additional Command Dice** when determining the round’s pool.

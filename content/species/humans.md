@@ -3,8 +3,6 @@ title: "Humans"
 tags: ["species", "playable"]
 ---
 
-*Adaptable, resourceful, and difficult to count out.*
-
 **Availability:** Playable.
 
 | SPD | RA | FI | SV | HP |

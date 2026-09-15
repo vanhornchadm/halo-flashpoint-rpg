@@ -3,8 +3,6 @@ title: "Spartan Down — Death Saves"
 tags: ["rules", "healing"]
 ---
 
-*Hold on. Your squad is coming.*
-
 These campaign rules apply to living player characters and designated important NPCs, regardless of species. Constructs, Flood, [[keywords/infection|infection deadlines]], and explicitly unsurvivable events follow their own rules.
 
 ## Downed

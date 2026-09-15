@@ -3,8 +3,6 @@ title: "Reading Keywords"
 tags: ["rules", "keywords"]
 ---
 
-*Training, biology, and technology each leave their mark on the battlefield.*
-
 ## Reading Keywords
 
 A keyword describes a specific ability, limitation, or effect. Its location determines its source:

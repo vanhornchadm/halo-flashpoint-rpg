@@ -3,8 +3,6 @@ title: "Flood Tank Form"
 tags: ["species", "npc"]
 ---
 
-*Biomass shaped into overwhelming force.*
-
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
 | 4"/6" | — | 4+ | 5+ | 5 |

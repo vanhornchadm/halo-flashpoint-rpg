@@ -3,8 +3,6 @@ title: "Flood Combat Form"
 tags: ["species", "npc"]
 ---
 
-*A familiar body repurposed into something relentless.*
-
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
 | 4"/9" | 6+ | 4+ | 5+ | 2 |

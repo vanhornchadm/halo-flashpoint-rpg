@@ -1,12 +1,12 @@
 ---
 title: "Jetpack"
-tags: ["equipment", "type-ii"]
+tags: ["equipment", "type-i"]
 ---
 
-**Type II · Immediately before your Advance**
+**Type I · Passive while functioning**
 
-Spend a charge to cross gaps and change elevation without climbing during one Advance. Measure the **entire route** against your normal movement allowance and finish on a legal supported surface.
+Gain the [[keywords/jump-pack|Jump Pack]] keyword while wearing this functioning item.
 
-This grants no extra movement, indefinite hovering, or general immunity to falling. It does not grant the [[keywords/flight|Flight]] or [[keywords/jump-pack|Jump Pack]] keyword. Normal engagement and Break Away rules apply. **[[keywords/one-use|One-Use]] per charge.**
+It does not grant the [[keywords/flight|Flight]] keyword. Normal engagement and Break Away rules apply.
 
 See [[rules/equipment|Equipment Rules]] and [[equipment/index|Equipment Reference]].

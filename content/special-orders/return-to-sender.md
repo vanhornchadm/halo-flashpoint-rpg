@@ -3,8 +3,6 @@ title: "Return to Sender"
 tags: ["special-orders", "unsc-personnel"]
 ---
 
-*“Think you dropped this.”*
-
 **Restriction:** Spartans, UNSC Marines, or ODSTs capable of throwing grenades.
 
 **When:** A thrown grenade lands within Advance range, including after scatter, before [[keywords/sticky|Sticky]], [[keywords/blast|Blast]], or other effects resolve. You must be unpinned, unengaged, and able to reach it with an Advance move.

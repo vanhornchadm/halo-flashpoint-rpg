@@ -3,8 +3,6 @@ title: "Hostile Takeover"
 tags: ["special-orders", "artificial-intelligences"]
 ---
 
-*Your defenses are failing. Your body is mine now.*
-
 **Restriction:** AIs with [[keywords/digital|Digital]].
 
 **When:** During your activation, you spend one short action to target an enemy [[keywords/construct|Construct]] within 8" and LOS of your host or storage device. You may use this order while unattached or engaged.

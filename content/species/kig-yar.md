@@ -3,8 +3,6 @@ title: "Kig-yar"
 tags: ["species", "playable"]
 ---
 
-*Alert, nimble, and skilled at finding an advantageous position.*
-
 **Availability:** Playable
 
 | SPD | RA | FI | SV | HP |
@@ -27,3 +25,5 @@ tags: ["species", "playable"]
 - **Point Defense Gauntlet:** [[keywords/energy-shield|Energy Shield]] (3).
 
 **Note:** [[keywords/agile|Agile]] grants climbing benefits. [[keywords/shoot-and-scoot|Shoot and Scoot]] is a separate Talent.
+
+**Special Order:** [[special-orders/no-second-peek|No Second Peek]] — interrupt an enemy's movement or shooting with a free, fully scoped shot.

@@ -63,6 +63,7 @@ Full definitions for character abilities, equipment, weapons, and conditions. Us
 - [[keywords/neural-interface|Neural Interface]]
 - [[keywords/pack-mule|Pack Mule]]
 - [[keywords/teleport|Teleport]]
+- [[keywords/thrown|Thrown (n)]]
 - [[keywords/visr|VISR]]
 
 ## Conditions and Complications
@@ -84,6 +85,7 @@ Full definitions for character abilities, equipment, weapons, and conditions. Us
 - [[keywords/implosion|Implosion (n)]]
 - [[keywords/incendiary|Incendiary]]
 - [[keywords/knockback|Knockback]]
+- [[keywords/large-blast|Large Blast]]
 - [[keywords/lethal|Lethal (n)]]
 - [[keywords/long|Long]]
 - [[keywords/lunge|Lunge]]
@@ -91,13 +93,16 @@ Full definitions for character abilities, equipment, weapons, and conditions. Us
 - [[keywords/one-use|One-Use]]
 - [[keywords/optics|Optics]]
 - [[keywords/rapid-fire|Rapid Fire]]
+- [[keywords/scatter|Scatter]]
 - [[keywords/smash|Smash (n)]]
+- [[keywords/small-blast|Small Blast]]
 - [[keywords/smoke|Smoke]]
 - [[keywords/sniper-scope|Sniper Scope]]
 - [[keywords/sticky|Sticky]]
 - [[keywords/stun|Stun]]
 - [[keywords/support-weapon|Support Weapon]]
 - [[keywords/suppression|Suppression]]
+- [[keywords/thrown|Thrown (n)]]
 - [[keywords/two-uses|Two-Uses]]
 - [[keywords/weight-of-fire|Weight of Fire (n)]]
 

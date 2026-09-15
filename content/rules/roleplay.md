@@ -3,8 +3,6 @@ title: "Light Roleplay Rules"
 tags: ["rules", "roleplay"]
 ---
 
-*Between firefights, survival depends on what you notice, what you know, and what you’re willing to try.*
-
 ## Describe Your Approach
 
 Tell the GM what your character wants to accomplish and how they attempt it. Equipment, training, species, relationships, and circumstances determine what is possible.
@@ -15,7 +13,7 @@ Straightforward actions succeed without a roll. Impossible actions require a dif
 
 | Attribute | Used for |
 |---|---|
-| **Strength (STR)** | Lifting, carrying, forcing obstacles, exerting physical power, and determining hand-thrown [[keywords/grenade|Grenade]] range. |
+| **Strength (STR)** | Lifting, carrying, forcing obstacles, exerting physical power, and determining [[keywords/thrown|Thrown (n)]] weapon and equipment distances. |
 | **Agility (AGL)** | Stealth, balance, coordination, and precise movement. |
 | **Intelligence (INT)** | Technical tasks, knowledge, reasoning, and analysis. |
 | **Awareness (AW)** | Noticing danger, searching, tracking, and reading immediate cues. |
@@ -61,8 +59,6 @@ Failure produces the established consequence: lost time, noise, damaged equipmen
 Do not repeat the same test until someone succeeds. Another attempt requires a meaningful change in approach, tools, information, or circumstances—or acceptance of a new cost or risk.
 
 ## Using Luck
-
-*Sometimes the right weapon really is lying beside the right door.*
 
 Luck determines unresolved circumstances that no character’s skill controls. The GM may call for a Luck test, and players may suggest a suitable opportunity.
 

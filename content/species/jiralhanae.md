@@ -3,8 +3,6 @@ title: "Jiralhanae"
 tags: ["species", "playable"]
 ---
 
-*Powerful warriors whose presence alone changes a fight.*
-
 **Availability:** Playable
 
 | SPD | RA | FI | SV | HP |

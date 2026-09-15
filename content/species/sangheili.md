@@ -3,8 +3,6 @@ title: "Sangheili"
 tags: ["species", "playable"]
 ---
 
-*Disciplined warriors who combine precision with physical power.*
-
 **Availability:** Playable.
 
 | SPD | RA | FI | SV | HP |

@@ -3,8 +3,6 @@ title: "Make a Door"
 tags: ["special-orders", "brutes-jiralhanae"]
 ---
 
-*If there isn’t an entrance, make one.*
-
 **Restriction:** Brutes.
 
 **When:** During your activation, you are within interaction range of a breakable door, barricade, or similar obstacle.

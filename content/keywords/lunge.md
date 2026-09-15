@@ -3,8 +3,6 @@ title: "Lunge"
 tags: ["keywords", "weapon-keywords"]
 ---
 
-*The weapon reaches farther than your opponent expects.*
-
 Use this profile with a **Shoot action**, but roll using your **FI stat instead of RA**.
 
 Only Clear Shot and High Ground may modify the attack’s dice pool. Normal range and action restrictions still apply.

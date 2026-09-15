@@ -3,8 +3,6 @@ title: "Breakfall"
 tags: ["keywords", "character-keywords", "talents", "house-rules"]
 ---
 
-*You turn a hard landing into a controlled roll.*
-
 After resolving falling damage, if you remain in play and able to act, were not Pinned before the fall, and would become Pinned by the fall, make a **standard Agility test (2 successes)**.
 
 - **Success:** Ignore the Pinning caused by the fall.

@@ -3,8 +3,6 @@ title: "Smoke"
 tags: ["keywords", "weapon-keywords"]
 ---
 
-*The battlefield disappears behind a wall of gray.*
-
 When used with [[keywords/grenade|Grenade]], determine the landing point normally and place a Smoke marker there. The attack causes no damage.
 
 Smoke extends **4" horizontally** from its marker:

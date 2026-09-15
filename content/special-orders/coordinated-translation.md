@@ -3,8 +3,6 @@ title: "Coordinated Translation"
 tags: ["special-orders", "prometheans"]
 ---
 
-*Two signatures vanish. Two signatures emerge.*
-
 **Restriction:** Prometheans with [[keywords/teleport|Teleport]].
 
 **When:** Before your normal [[keywords/teleport|Teleport]] action, choose a willing Promethean ally within 4" and LOS. Neither character may be engaged.

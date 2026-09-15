@@ -3,8 +3,6 @@ title: "Defiance"
 tags: ["special-orders", "brutes-jiralhanae"]
 ---
 
-*Your blood hits the ground. Your pack surges forward.*
-
 **Restriction:** Brutes.
 
 **When:** An enemy attack wounds you without incapacitating you.

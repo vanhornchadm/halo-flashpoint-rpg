@@ -3,8 +3,6 @@ title: "Promethean Soldier"
 tags: ["species", "npc"]
 ---
 
-*A mobile combat construct with an unconventional approach to distance.*
-
 | SPD | RA | FI | SV | HP |
 |---|---|---|---|---|
 | 4"/9" | 4+ | 5+ | 5+ | 3 |

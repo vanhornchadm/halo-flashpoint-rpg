@@ -3,8 +3,6 @@ title: "Snap Shot"
 tags: ["special-orders", "spartans"]
 ---
 
-*The enemy closes the distance. Your sights are already there.*
-
 **Restriction:** Spartans.
 
 **When:** An enemy finishes an Advance or Sprint that engages you and grants a free Assault against you. Declare after they choose you as the target, before resolving the Assault. You cannot be Pinned or engaged with another enemy.

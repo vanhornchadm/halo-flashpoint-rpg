@@ -3,8 +3,6 @@ title: "Change of Plan"
 tags: ["special-orders", "shared-special-orders"]
 ---
 
-*“Objective compromised. Fall back to the next position.”*
-
 **Restriction:** None.
 
 **When:** During your activation, the squad acts on a newly discovered threat, lost objective, or information that changes the mission.

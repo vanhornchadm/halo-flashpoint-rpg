@@ -11,7 +11,7 @@ Forced movement can carry a model into a cube with no floor, causing it to fall 
 
 Terrain blocks forced movement normally: solid walls stop movement (use the published Slammed into Walls rule), while suitable gaps permit it. Forced movement cannot use a Hatch. Entering an enemy-occupied cube triggers the normal free Assault, subject to the Pinned rules.
 
-A model falls when it ends a movement action or forced movement in a cube without a floor, or descends more than one level through floorless cubes without climbing down scenery. It falls vertically to a cube with a floor; use the published Scatter rules for partial floors. Measure fall height from the last floor it stood on. A model cannot move upward into a floorless cube in order to fall.
+A model falls when it ends a movement action or forced movement in a cube without a floor, or descends more than one level through floorless cubes without climbing down scenery. It falls vertically to a cube with a floor; use [[keywords/scatter|Scatter]] for partial floors. Measure fall height from the last floor it stood on. A model cannot move upward into a floorless cube in order to fall.
 
 ## Falling Damage
 

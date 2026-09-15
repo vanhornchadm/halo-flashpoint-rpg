@@ -3,8 +3,6 @@ title: "Not Yet"
 tags: ["special-orders", "shared-special-orders"]
 ---
 
-*There is still one thing you have to do.*
-
 **Restriction:** None.
 
 **When:** Damage would incapacitate you without killing you outright.
